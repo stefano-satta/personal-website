@@ -1,0 +1,18 @@
+{
+  "navbar": {
+    "homepage": "Home",
+    "about": "About",
+    "contact": "Contatti"
+  },
+  "homepage": {
+    "title": "Ciao Homepage",
+    "description": "Questa è la descrizione",
+    "metadata": {
+      "title": "Stefano Satta | Front-end developer",
+      "description": "I'm a passionate front-end developer based in Italy. Focused on building responsive front-end web applications with modern technologies."
+    }
+  },
+  "notFoundPage": {
+    "title": "Not Found Error"
+  }
+}

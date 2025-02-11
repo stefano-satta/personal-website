@@ -1,0 +1,25 @@
+@media screen and (max-width: 1024px) and (max-width: 1366px) {
+    .fs-contact-mail { font-size: 2rem; }
+}
+
+@media screen and (max-width: 991px) {
+    .sliding-container {
+        .loop-element {
+            &::before { left: 3vw; }
+        }
+    }
+
+    #my-self-tech-section {
+        .my-self {
+            position: relative;
+            right: initial;
+            bottom: initial;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .fs-contact-mail { font-size: 1.5rem;}
+    [class*="col-"] { margin-bottom: 15px; }
+    #about-section-hero .projects-count { font-size: 6rem; bottom: -25px;}
+}

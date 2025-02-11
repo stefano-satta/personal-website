@@ -1,0 +1,25 @@
+$color-black: #191a1b;
+$color-grey: #6e6e73;
+$color-grey-background: #f7f7f9;
+$color-warning: #bf4800;
+$color-javascript: #f7df1f;
+$color-typescript: #2f74c0;
+$color-black-btn-hover: #383838;
+$color-white-btn-hover: #c7c7c7;
+$color-white: #fff;
+$color-orange: #ff8e38;
+$color-fucsia: #ff77aa;
+$color-green-light: rgba(45,253,167,1);
+$color-blue-light: rgba(34,193,195,1);
+$font-size-title-mega: clamp(60px, 17.7465px + 8.4507vw, 180px);
+
+//  text
+$font-family: 'Lato', sans-serif;
+$text-color-white: $color-white;
+$text-color-black: $color-black; 
+
+//  buttons
+$buttonColors: $color-black, $color-white;
+$buttonColorsHover: $color-black-btn-hover, $color-white-btn-hover;
+$buttonsTextColor: $text-color-white, $text-color-black;
+$buttons: 'black', 'white';

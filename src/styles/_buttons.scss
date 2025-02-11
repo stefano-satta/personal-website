@@ -1,0 +1,77 @@
+@import 'variables';
+
+.btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+  height: 48px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  white-space: nowrap;
+  transition: background .3s;
+  border-radius: 8px;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &:active, &:focus, &:hover {
+    box-shadow: none !important;
+  }
+
+  &:active {
+    transform: scale(.900) !important;
+  }
+}
+
+//  btn color class
+$i: 1;
+@each $color in $buttons {
+  .btn-#{$color} {
+    background: nth($buttonColors, $i) !important;
+    color: nth($buttonsTextColor, $i) !important;
+    border-color: unset;
+  }
+  $i: $i + 1;
+}
+
+//  btn color class - hover
+$z: 1;
+@each $color in $buttons {
+  .btn-#{$color}:hover {
+    background: nth($buttonColorsHover, $z) !important;
+    color: nth($buttonsTextColor, $z) !important;
+    border-color: unset;
+  }
+  $z: $z + 1;
+}
+
+#btn-scroll-top {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 8%;
+  right: 9%;
+  z-index: 30;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);;
+  border-radius: 50%;
+
+  &:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+}
+
+.social-link-black {
+  @include socialLink($color-black);
+}
+
+.social-link-white {
+  @include socialLink($color-white);
+}
