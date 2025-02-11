@@ -1,8 +1,7 @@
 "use client"
 
 import {useRouter} from "@/i18n/routing";
-import {ChangeEvent, useTransition} from "react";
-import { Form } from "react-bootstrap";
+import {useTransition} from "react";
 import {useLocale} from "next-intl";
 import FlagLanguageButton from "@/components/common/navbar/locale-switcher/FlagLanguageButton";
 import flagLanguagesUrl from "@/utility/language";

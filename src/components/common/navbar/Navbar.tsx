@@ -10,7 +10,6 @@ import NavbarLogo from "./NavbarLogo";
 import myInfo from "@/utility/my-info";
 import {useTranslations} from "next-intl";
 import {Link} from "@/i18n/routing";
-import LocaleSwitcher from "@/components/common/navbar/locale-switcher/LocaleSwitcher";
 
 
 const SCROLLED_CLASS_STYLE_NAVBAR: string = 'navbar-scrolled bg-black text-white rounded-pill';

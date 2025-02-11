@@ -104,7 +104,7 @@ const MySelfTechSection = () => {
                                  style={{width: '60px', height: '60px'}}>
                                 <Icon icon={'fa-solid fa-arrow-down fa-xl fa-bounce'} className="text-white"/>
                             </div>
-                            <p className="fs-4 ms-3 mb-0">Let's see below what we can do together</p>
+                            <p className="fs-4 ms-3 mb-0">Let&#39;s see below what we can do together</p>
                         </div>
                     </Col>
                 </Row>

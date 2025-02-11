@@ -1,4 +1,5 @@
 "use client"
+
 import { useState, useEffect } from "react";
 import { Card } from "react-bootstrap";
 import AboutWallImg from '../../../../public/about-wall-img.jpg';

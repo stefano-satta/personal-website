@@ -1,6 +1,6 @@
 import { BaseHTMLAttributes } from "react";
 
-interface BlobProps extends BaseHTMLAttributes<SVGAnimateElement> {}
+type BlobProps = BaseHTMLAttributes<SVGAnimateElement>;
 
 
 const Blob = ({className, style, id}: BlobProps) => {
