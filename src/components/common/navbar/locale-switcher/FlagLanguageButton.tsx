@@ -11,7 +11,7 @@ const FlagLanguageButton = (props: FlagLanguageButtonProps) => {
 
     return (
         <Button className="bg-transparent" onClick={handleLangSelected}>
-            <Image src={flagUrl} alt={altImgText} width={30} height={30} />
+            <Image src={flagUrl} alt={altImgText} width={30} height={30} priority/>
         </Button>
     )
 }

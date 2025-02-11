@@ -2,10 +2,11 @@
   "navbar": {
     "homepage": "Home",
     "about": "About",
-    "contact": "Contatti"
+    "contact": "Contatti",
+    "hireMe": "Contattami!"
   },
   "homepage": {
-    "welcomeMessage": "Ciao! Sono <strong class=\"text-black\">Stefano Satta</strong>. <br/>\n Appassionato <strong class=\"text-black\">sviluppatore front-end</strong>. <br/>\n Sviluppo applicazioni web front-end responsive con <br/>\n le migliori tecnologie.",
+    "welcomeMessage": "Ciao! Sono <strong class=\"text-black\">Stefano Satta</strong>. <br/>\n Appassionato <strong class=\"text-black\">sviluppatore front-end</strong>. <br/>\n Sviluppo applicazioni e siti web responsive con <br/>\n le migliori tecnologie front-end.",
     "whatIDo": {
       "title": "Cosa faccio",
       "subTitle": "Aiuto startup e aziende a trasformare <strong>idee in progetti</strong>. <br/>\n Esperienza in sviluppo, testing and debugging applicazioni web e siti web.",
@@ -29,6 +30,13 @@
       "subTitle": "<strong class=\"fluo-available\">Disponibile ora</strong> per nuovi progetti",
       "message": "Per qualsiasi informazione, <br/> contattami subito!"
     }
+  },
+  "aboutPage": {
+    "title": "Ciao! <br/> Lascia che ti parli <br/>di me...",
+    "presentation": "Mi chiamo <span class=\"fw-bold\">Stefano Satta </span>\n e <br/> sono un\n <span class=\"fw-bold\"> sviluppatore front-end</span>",
+    "shortMessage": "Lavoro nel campo dello sviluppo software da più di 6 anni. Ho prese parte a più di 15 progetti con clienti e aziende di varie dimensioni, sia private che nel campo della pubblica amministrazione",
+    "shortMessageExperience": "Tutte queste esperienze mi hanno permesso di acquisire e migliorare le competenze tecniche ma anche le soft skills.",
+    "checkBelowServices": "Ecco cosa possiamo fare insieme!"
   },
   "notFoundPage": {
     "title": "Not Found Error"

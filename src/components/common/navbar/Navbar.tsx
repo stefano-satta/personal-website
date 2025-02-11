@@ -80,7 +80,7 @@ const NavBar = () => {
                         <Link href={`mailto:${myInfo.email}?subject=Project info`}
                               passHref
                               className="btn btn-black rounded-pill ms-3">
-                            Hire Me!
+                            {t('hireMe')}
                         </Link>
                     </div>
                 </Navbar.Collapse>

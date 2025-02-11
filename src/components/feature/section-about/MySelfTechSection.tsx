@@ -12,31 +12,25 @@ import JavascriptLogo from "../../../../public/logos/javascript.png";
 import TypescriptLogo from "../../../../public/logos/typescript.png";
 import WebpackLogo from "../../../../public/logos/webpack.png";
 import Icon from "@/components/common/icons/Icon";
+import {useTranslations} from "next-intl";
 
 
 const MySelfTechSection = () => {
+    const t = useTranslations('aboutPage');
 
     return (
         <section id="my-self-tech-section">
             <Container className="py-5">
                 <Row className="pb-5">
                     <Col xs={12} className="position-relative">
-                        <TitleSection title={'Hello! <br/> Let me introduce <br/>my self.'}
+                        <TitleSection title={t('title')}
                                       className="fs-title-mega mb-5"/>
-                        <p className="fs-2 my-self">
-                            My name is <span className="fw-bold">Stefano Satta </span>
-                            and <br/> I am a
-                            <span className="fw-bold"> creative front-end developer</span>
-                        </p>
+                        <p className="fs-2 my-self" dangerouslySetInnerHTML={{__html: t.raw('presentation')}}></p>
                     </Col>
                 </Row>
                 <Row className="pb-5">
                     <Col xs={12}>
-                        <p className="mt-5 fs-2">I work in the field of software development for over 6 years. I have
-                            partecipated in more
-                            than 15
-                            projects with clients and companies of various sizes, both in the private sector and in
-                            public administration</p>
+                        <p className="mt-5 fs-2">{t('shortMessage')}</p>
                     </Col>
                 </Row>
                 <Row className="mb-5">
@@ -96,15 +90,13 @@ const MySelfTechSection = () => {
                         </div>
                     </Col>
                     <Col xs={12} lg={{span: 7, offset: 1}}>
-                        <p className="fs-4">These experiences have allowed me to acquire and improve technical skills as
-                            well as soft
-                            skills.</p>
+                        <p className="fs-4">{t('shortMessageExperience')}</p>
                         <div className="d-flex mt-5 mb-5 align-items-center">
                             <div className="rounded-circle bg-black d-flex justify-content-center align-items-center flex-shrink-0"
                                  style={{width: '60px', height: '60px'}}>
                                 <Icon icon={'fa-solid fa-arrow-down fa-xl fa-bounce'} className="text-white"/>
                             </div>
-                            <p className="fs-4 ms-3 mb-0">Let&#39;s see below what we can do together</p>
+                            <p className="fs-4 ms-3 mb-0">{t('checkBelowServices')}</p>
                         </div>
                     </Col>
                 </Row>

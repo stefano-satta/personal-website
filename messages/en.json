@@ -2,7 +2,8 @@
   "navbar": {
     "homepage": "Home",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "hireMe": "Hire me!"
   },
   "homepage": {
     "welcomeMessage": "Hi! I’m <strong class=\"text-black\">Stefano Satta</strong>. <br/>\n I am a passionate <strong class=\"text-black\">front-end developer</strong> based in Italy. <br/>\n Focused on building responsive front-end web applications with <br/>\n modern technologies.",
@@ -27,8 +28,15 @@
     "contacts": {
       "title": "Wanna be <br />starting something <br /> together?",
       "subTitle": "<strong class=\"fluo-available\">Now available</strong> to new projects",
-      "message": "If you have any questions, <br/> feel free to contact me.</p>"
+      "message": "If you have any questions, <br/> feel free to contact me."
     }
+  },
+  "aboutPage": {
+    "title": "Hello! <br/> Let me introduce <br/>my self.",
+    "presentation": "My name is <span class=\"fw-bold\">Stefano Satta </span>\n and <br/> I am a\n <span class=\"fw-bold\"> creative front-end developer</span>",
+    "shortMessage": "I work in the field of software development for over 6 years. I have partecipated in more than 15 projects with clients and companies of various sizes, both in the private sector and in public administration",
+    "shortMessageExperience": "These experiences have allowed me to acquire and improve technical skills as well as soft skills.",
+    "checkBelowServices": "Let&#39;s see below what we can do together"
   },
   "notFoundPage": {
     "title": "Not Found Error"
