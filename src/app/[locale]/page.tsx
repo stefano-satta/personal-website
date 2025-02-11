@@ -7,12 +7,10 @@ import {Metadata} from "next";
 
 export const metadata: Metadata = {
     title: "Stefano Satta | Front-end developer",
-    description: "Passionate front-end developer based in Italy. Focused on building responsive front-end web applications with\n" +
-        "modern technologies",
+    description: "Passionate front-end developer based in Italy. Focused on building responsive front-end web applications with modern technologies",
     openGraph: {
         title: 'Stefano Satta | Front-end developer',
-        description: 'Passionate front-end developer based in Italy. Focused on building responsive front-end web applications with' +
-            ' modern technologies',
+        description: 'Passionate front-end developer based in Italy. Focused on building responsive front-end web applications with modern technologies',
     },
 }
 
