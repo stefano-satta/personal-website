@@ -5,11 +5,29 @@
     "contact": "Contatti"
   },
   "homepage": {
-    "title": "Ciao Homepage",
-    "description": "Questa è la descrizione",
-    "metadata": {
-      "title": "Stefano Satta | Front-end developer",
-      "description": "I'm a passionate front-end developer based in Italy. Focused on building responsive front-end web applications with modern technologies."
+    "welcomeMessage": "Ciao! Sono <strong class=\"text-black\">Stefano Satta</strong>. <br/>\n Appassionato <strong class=\"text-black\">sviluppatore front-end</strong>. <br/>\n Sviluppo applicazioni web front-end responsive con <br/>\n le migliori tecnologie.",
+    "whatIDo": {
+      "title": "Cosa faccio",
+      "subTitle": "Aiuto startup e aziende a trasformare <strong>idee in progetti</strong>. <br/>\n Esperienza in sviluppo, testing and debugging applicazioni web e siti web.",
+      "box": {
+        "ideaProd": "Turning ideas into real life <span class=\"black-highlight\">products</span>.",
+        "techs": "Tecnologie",
+        "projects": "Progetti",
+        "moreInfo": "Vuoi sapere di più?",
+        "lookHere": "Guarda qui"
+      }
+    },
+    "projects": {
+      "title": "Progetti.",
+      "subTitle": "Una piccola lista di progetti scelti da me."
+    },
+    "slidingReference": {
+      "title": "Lavori e progetti in"
+    },
+    "contacts": {
+      "title": "Inziamo <br />un progetto <br /> insieme?",
+      "subTitle": "<strong class=\"fluo-available\">Disponibile ora</strong> per nuovi progetti",
+      "message": "Per qualsiasi informazione, <br/> contattami subito!"
     }
   },
   "notFoundPage": {

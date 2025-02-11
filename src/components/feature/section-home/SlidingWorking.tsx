@@ -1,9 +1,11 @@
-const SlidingWorking = () => {
+import {useTranslations} from "next-intl";
 
+const SlidingWorking = () => {
+    const t = useTranslations('homepage.slidingReference');
     return (
         <section id="sliding-working-hero"
                  className="sliding-container position-relative bg-black">
-            < div className="loop-element" data-title="Worked and projects in">
+            < div className="loop-element" data-title={t('title')}>
                 <div className="marquee-inner">
                     <span>Accenture</span>
                     <span>Televideocom</span>

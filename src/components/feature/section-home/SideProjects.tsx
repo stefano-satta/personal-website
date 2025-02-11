@@ -14,15 +14,16 @@ import TitleSection from "@/components/common/title-subtitle-sections/TitleSecti
 import {Swiper, SwiperSlide} from "swiper/react";
 import { Navigation } from 'swiper/modules';
 import { Container } from "react-bootstrap";
+import {useTranslations} from "next-intl";
 
 
 const SideProjects = () => {
     const [currentPortfolio, cryptoProject, websiteProject, goRightsProject, iCountryProject] = SIDE_PROJECTS;
-
+    const t = useTranslations('homepage.projects');
     return (
         <Container className="overflow-hidden" as="section" id="side-projects-hero">
-            <TitleSection title={'Projects.'}/>
-            <p className="fs-2 mb-3">A small list of other projects chosen by me.</p>
+            <TitleSection title={t('title')}/>
+            <p className="fs-2 mb-3">{t('subTitle')}</p>
 
             <Swiper
                 breakpoints={{

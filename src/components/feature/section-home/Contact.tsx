@@ -6,19 +6,19 @@ import MailClipboard from '@/components/common/mail-contact-clipboard/MailClipbo
 import myInfo from '@/utility/my-info';
 import icon from "@/utility/icon";
 import { Link } from '@/i18n/routing';
+import {useTranslations} from "next-intl";
 
 
 const Contact = () => {
+    const t = useTranslations('homepage.contacts');
 
     return (
         <Container id="contact-hero" as="section">
-            <TitleSection title={'Wanna be <br />starting something <br /> together ?</h2>'}/>
+            <TitleSection title={t('title')}/>
             <Row>
                 <Col xs={12} lg={6} className="mb-4">
-                    <p className="my-4 fs-2">
-                        <strong className="fluo-available">Now available</strong> to new projects.
-                    </p>
-                    <p className="fs-2 mt-3">If you have any questions, <br/> feel free to contact me.</p>
+                    <p className="my-4 fs-2" dangerouslySetInnerHTML={{__html: t.raw('subTitle')}}></p>
+                    <p className="fs-2 mt-3" dangerouslySetInnerHTML={{__html: t.raw('message')}}></p>
                     <ul className="mt-5 fs-2 ps-0">
                         <li className="list-unstyled mb-2">
                             <Icon icon={icon.linkedin} className="me-3"></Icon>

@@ -10,6 +10,7 @@ import NavbarLogo from "./NavbarLogo";
 import myInfo from "@/utility/my-info";
 import {useTranslations} from "next-intl";
 import {Link} from "@/i18n/routing";
+import LocaleSwitcher from "@/components/common/navbar/locale-switcher/LocaleSwitcher";
 
 
 const SCROLLED_CLASS_STYLE_NAVBAR: string = 'navbar-scrolled bg-black text-white rounded-pill';
@@ -38,7 +39,6 @@ const NavBar = () => {
         <Navbar expand="lg" fixed="top" className="py-3 mx-2">
             <Container className={nbScrolledClass}>
                 <NavbarLogo/>
-                {/*<LocaleSwitcher/>*/}
                 <button type="button"
                         title="button-mobile-menu"
                         style={{background: 'none', border: 'none'}}
@@ -76,6 +76,7 @@ const NavBar = () => {
                     </Nav>
 
                     <div className="d-none d-lg-inline-flex ms-auto">
+                        <LocaleSwitcher/>
                         <Link href={`mailto:${myInfo.email}?subject=Project info`}
                               passHref
                               className="btn btn-black rounded-pill ms-3">
