@@ -9,15 +9,17 @@ import FirstSlideImg from '../../../../public/pferro-surf.jpg';
 import SecondSlideImg from '../../../../public/skate.jpg';
 import ThirdSlideImg from '../../../../public/speranza-beach.jpg';
 import TitleSection from "@/components/common/title-subtitle-sections/TitleSection";
+import {useTranslations} from "next-intl";
 
 
 const MyMediaSection = () => {
+    const t = useTranslations('aboutPage.mediaSection');
     
     return (
         <section id="media-section">
             <Container>
-                <TitleSection title={'And after...'}/>
-                <TitleSection title={'It\'s time to have a fun! 😉'}/>
+                <TitleSection title={t('title')}/>
+                {/*<TitleSection title={'It\'s time to have a fun! 😉'}/>*/}
                 <Row className="py-5">
                     <Col xs={12} md={6}>
                         <div className="">
@@ -36,7 +38,7 @@ const MyMediaSection = () => {
                                 <Image src={InstagramLogo} className="position-absolute" style={{ top: '24px', right: '24px', zIndex: 20}} width={60} alt={'instagram-logo'}/>
                             </Link>
 
-                            <Carousel.Caption className="fs-2 fw-bold" style={{ zIndex: 20}}>My other passion</Carousel.Caption>
+                            <Carousel.Caption className="fs-2 fw-bold" style={{ zIndex: 20}}>{t('otherPassion')}</Carousel.Caption>
                             <Carousel controls={false} indicators={false} touch fade>
                                 <Carousel.Item interval={2000}>
                                     <Image src={FirstSlideImg} alt={'slide-photo-surf'} fill sizes={''}/>

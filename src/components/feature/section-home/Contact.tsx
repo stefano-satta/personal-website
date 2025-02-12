@@ -26,7 +26,7 @@ const Contact = () => {
                                   passHref
                                   target="_blank"
                                   className="link text-decoration-none text-wrap">
-                                LinkedIn profile
+                                LinkedIn
                             </Link>
                         </li>
                         <li className="list-unstyled mb-2">
@@ -35,7 +35,7 @@ const Contact = () => {
                                   passHref
                                   target={'_blank'}
                                   className="link text-decoration-none text-wrap">
-                                GitHub profile
+                                GitHub
                             </Link>
                         </li>
                         <li className="list-unstyled mb-2">

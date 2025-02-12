@@ -36,7 +36,37 @@
     "presentation": "Mi chiamo <span class=\"fw-bold\">Stefano Satta </span>\n e <br/> sono un\n <span class=\"fw-bold\"> sviluppatore front-end</span>",
     "shortMessage": "Lavoro nel campo dello sviluppo software da più di 6 anni. Ho prese parte a più di 15 progetti con clienti e aziende di varie dimensioni, sia private che nel campo della pubblica amministrazione",
     "shortMessageExperience": "Tutte queste esperienze mi hanno permesso di acquisire e migliorare le competenze tecniche ma anche le soft skills.",
-    "checkBelowServices": "Ecco cosa possiamo fare insieme!"
+    "checkBelowServices": "Ecco cosa possiamo fare insieme!",
+    "myServices": {
+      "title": "Servizi",
+      "category": {
+        "webDev": {
+          "title": "Sviluppo Web",
+          "description": "Creazione di siti e progetti responsive customizzati e accessibili, usando le migliori tecnologie front-end (Angular, React, Typescript)"
+        },
+        "ecommerce": {
+          "title": "eCommerce",
+          "description": "Sviluppo soluzioni di business sicure e ad alte performanceche assicurano la migliore esperienza d'acquisto per convertire l'utente in cliente ad alta fedeltà."
+        },
+        "webApplications": {
+          "title": "Applicazioni Web",
+          "description": "Creazione di applicazioni web per ogni business con l'obiettivo di creare soluzioni in grado di massimizzare l'efficienza, la produttività e la digitalizzazione di ogni processo aziendale."
+        }
+
+      }
+    },
+    "mediaSection": {
+      "title": "E ora... <br/> It's time to have a fun! 😉",
+      "otherPassion": "Tempo libero"
+    },
+    "contacts": {
+      "title": "Contattami!",
+      "pills": {
+        "newCollab": "Nuova collaborazione",
+        "pizza": "Pizza 🍕"
+      },
+      "messageInfo": "Stai pensando ad un progetto insieme? <br /> Che aspetti? Scrivimi subito!"
+    }
   },
   "notFoundPage": {
     "title": "Not Found Error"
