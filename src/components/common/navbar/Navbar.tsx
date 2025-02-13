@@ -79,6 +79,7 @@ const NavBar = () => {
                         <LocaleSwitcher/>
                         <Link href={`mailto:${myInfo.email}?subject=Project info`}
                               passHref
+                              id="hire-me-button"
                               className="btn btn-black rounded-pill ms-3">
                             {t('hireMe')}
                         </Link>

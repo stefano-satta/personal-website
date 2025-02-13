@@ -5,6 +5,9 @@
     "contact": "Contact",
     "hireMe": "Hire me!"
   },
+  "footer": {
+    "lastUpdate": "Latest update {timeUpdate}"
+  },
   "homepage": {
     "welcomeMessage": "Hi! I’m <strong class=\"text-black\">Stefano Satta</strong>. <br/>\n I am a passionate <strong class=\"text-black\">front-end developer</strong> based in Italy. <br/>\n Focused on building responsive front-end web applications with <br/>\n modern technologies.",
     "whatIDo": {

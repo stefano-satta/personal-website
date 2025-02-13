@@ -59,6 +59,16 @@ body {
     & .link {
        @include replaceLinkUnderlineAndColor($color-white);
     }
+
+    #hire-me-button {
+        border: 1px solid $color-white;
+        background-color: $color-black;
+
+        &:hover {
+            background-color: $color-white !important;
+            color: $color-black !important;
+        }
+    }
 }
 .offcanvas {
     &:is(.bg-black) .link {

@@ -5,6 +5,9 @@
     "contact": "Contatti",
     "hireMe": "Contattami!"
   },
+  "footer": {
+    "lastUpdate": "Ultimo aggiornamento {timeUpdate}"
+  },
   "homepage": {
     "welcomeMessage": "Ciao! Sono <strong class=\"text-black\">Stefano Satta</strong>. <br/>\n Appassionato <strong class=\"text-black\">sviluppatore front-end</strong>. <br/>\n Sviluppo applicazioni e siti web responsive con <br/>\n le migliori tecnologie front-end.",
     "whatIDo": {
