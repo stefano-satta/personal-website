@@ -6,6 +6,7 @@ import useCurrentDate from "@/hooks/useCurrentDate";
 import myInfo from "@/utility/my-info";
 import {useTranslations} from "next-intl";
 import { Link } from "@/i18n/routing";
+import LocaleSwitcher from "@/components/common/navbar/locale-switcher/LocaleSwitcher";
 
 interface OffCanvasMenuProps extends HTMLAttributes<HTMLDivElement> {
     isShow: boolean;
@@ -23,8 +24,9 @@ const OffCanvasMenu = (props: OffCanvasMenuProps) => {
     return (
         <Offcanvas show={isShow} onHide={closeMenu} responsive={size} placement={placement} className={className}>
             <Offcanvas.Header closeButton closeVariant="white">
-                <Offcanvas.Title>
+                <Offcanvas.Title className="d-flex align-items-center w-100">
                     <NavbarLogo/>
+                    <LocaleSwitcher className="ms-auto"/>
                 </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body className="h-75">
