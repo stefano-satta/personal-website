@@ -71,6 +71,10 @@
       "messageInfo": "Stai pensando ad un progetto insieme? <br /> Che aspetti? Scrivimi subito!"
     }
   },
+  "actions": {
+    "hireMe": "Contattami!",
+    "mailCopied": "Mail copiata 📋!"
+  },
   "notFoundPage": {
     "title": "Not Found Error"
   }

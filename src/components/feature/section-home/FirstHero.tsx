@@ -8,6 +8,7 @@ import {useTranslations} from "next-intl";
 
 const FirstHero = () => {
     const t = useTranslations('homepage');
+    const tActions = useTranslations('actions');
 
     return (
         <Container as="section" id="first-hello-hero" className="text-center">
@@ -17,7 +18,7 @@ const FirstHero = () => {
             <Link href={`mailto:${myInfo.email}?subject=Project info.`}
                 passHref
                 className="btn btn-black d-lg-none mt-4 rounded-pill">
-                Hire Me!
+                {tActions('hireMe')}
             </Link>
         </Container>
     )

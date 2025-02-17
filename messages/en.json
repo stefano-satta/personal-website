@@ -70,6 +70,10 @@
       "messageInfo": "Are you minding a project together? <br /> My inbox is always open. <br /> I'll do my best to get back to you soon!"
     }
   },
+  "actions": {
+    "hireMe": "Hire me!",
+    "mailCopied": "Mail copied 📋!"
+  },
   "notFoundPage": {
     "title": "Not Found Error"
   }

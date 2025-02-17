@@ -1,9 +1,12 @@
 "use client"
 
 import { useEffect, useState } from "react";
+import {useTranslations} from "next-intl";
+import myInfo from "@/utility/my-info";
 
 const MailClipboard = () => {
     const [showClipboard, setClipboard] = useState(false);
+    const t = useTranslations('actions');
 
     useEffect(() => {
         setTimeout(() => {
@@ -13,7 +16,7 @@ const MailClipboard = () => {
 
     const handleCopyMail = () => {
         setClipboard(!showClipboard);
-        navigator.clipboard.writeText('stefanosatta@outlook.com')
+        navigator.clipboard.writeText(myInfo.email);
     }
 
     return (
@@ -22,7 +25,7 @@ const MailClipboard = () => {
                 showClipboard &&
                     <span className="bg-less-dark py-2 px-3 position-absolute bg-black text-white rounded-3 comics"
                             style={{bottom: '110px', left: '50px'}}>
-                        Mail copied! 📋
+                        {t('mailCopied')}
                     </span>
             }
             <div className="cursor-pointer text-decoration-none link fs-contact-mail"
