@@ -1,14 +1,14 @@
 export const SIDE_PROJECTS: SideProject[] = [
     {
         name: 'Current portfolio',
-        description: 'My portfolio realized in NextJS and TypeScript.',
+        description: 'My portfolio realized in NextJS and TypeScript, Next-intl for translation',
         category: 'Portfolio',
         framework: 'NextJS',
         language: 'Typescript',
         bgIconColor: 'bg-icon-typescript',
-        date: '03-25-2023',
+        date: '02-18-2025',
         isCompleted: true,
-        github: 'https://github.com/stefano-satta/personal-website-2023',
+        github: 'https://github.com/stefano-satta/personal-website',
         siteUrl: ''
     },
     {
