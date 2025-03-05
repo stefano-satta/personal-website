@@ -10,12 +10,11 @@ const lato = Lato({
 })
 
 
-
 export default function RootLayout({children}: {children: React.ReactNode}) {
     return (
         <html lang="en">
             <body className={lato.className}>{children}</body>
-            <GoogleAnalytics gaId="G-FVXXJJRYNQ" />
+            <GoogleAnalytics gaId={process.env.gAnalyticsID as string} />
         </html>
     );
 }

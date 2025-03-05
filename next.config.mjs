@@ -9,6 +9,9 @@ const nextConfig = {
     },
     images: {
         domains: ['cdn2.iconfinder.com']
+    },
+    env: {
+        gAnalyticsID: 'G-FVXXJJRYNQ'
     }
 };
 
