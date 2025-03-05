@@ -34,8 +34,8 @@ export default async function LocaleLayout({children, params}: {
     const messages = await getMessages();
 
     return (
-        <html lang={locale}>
-            <body className={lato.className}>
+        /*<html lang={locale}>*/
+            /*<body className={lato.className}>*/
                 <NextIntlClientProvider messages={messages}>
                     <NavBar/>
                         <main className="position-relative" style={{marginTop: '80px'}}>
@@ -44,7 +44,7 @@ export default async function LocaleLayout({children, params}: {
                         </main>
                     <Footer/>
                 </NextIntlClientProvider>
-            </body>
-        </html>
+            /*</body>*/
+        /*</html>*/
     );
 }
