@@ -70,9 +70,17 @@
       "messageInfo": "Are you minding a project together? <br /> My inbox is always open. <br /> I'll do my best to get back to you soon!"
     }
   },
+  "privacyPage": {
+    "title": "Cookies",
+    "firstP": "This internet website uses its own technical cookies  to help users to navigate the site as efficiently, easily and faster as possible.",
+    "secondP": "Besides, it uses Google Analytics cookies to count visitor and more stats. For information about the cookies used to visit the appropriate <a href=\"https://www.google.com/policies/technologies/types/\" target=\"_blank\">page<a/> of Google.",
+    "thirdP": "Analytical cookies are used to collect anonymous statistics information about the use of the site by users (e.g. number of visitors, links of provenance, key words used to find the site on search engines).",
+    "fourthP": "For any information you can contact me at stefanosatta@outlook.com"
+  },
   "actions": {
     "hireMe": "Hire me!",
-    "mailCopied": "Mail copied 📋!"
+    "mailCopied": "Mail copied 📋!",
+    "cookies": "Cookies"
   },
   "notFoundPage": {
     "title": "Not Found Error"

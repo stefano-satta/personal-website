@@ -71,9 +71,17 @@
       "messageInfo": "Stai pensando ad un progetto insieme? <br /> Che aspetti? Scrivimi subito!"
     }
   },
+  "privacyPage": {
+    "title": "Cookies",
+    "firstP": "Questo sito fa uso di cookies tecnici propri in modo da rendere una navigazione quanto più possibile facile, veloce ed efficiente.",
+    "secondP": "Inoltre, viene utilizzato i cookies di Google Analytics cookies a fini statistici. Per avere più informazioni sui cookies utilizzati visitare la seguente <a href=\"https://www.google.com/policies/technologies/types/\" target=\"_blank\">pagina<a/> di Google.",
+    "thirdP": "Questi ultimi sono usati per a fini statistici per capire l'uso del sito da parte degli utenti (ad es.: numero di visitatori, links di provenienza, keywords utilizzate sul motore di ricerca per arrivare al sito).",
+    "fourthP": "Per qualsiasi informazione puoi contattarmi al seguente indirizzo mail stefanosatta@outlook.com"
+  },
   "actions": {
     "hireMe": "Contattami!",
-    "mailCopied": "Mail copiata 📋!"
+    "mailCopied": "Mail copiata 📋!",
+    "cookies": "Cookies"
   },
   "notFoundPage": {
     "title": "Not Found Error"

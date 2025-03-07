@@ -5,8 +5,7 @@ import React from "react";
 import NavBar from "@/components/common/navbar/Navbar";
 import Footer from "@/components/common/footer/Footer";
 import {routing} from "@/i18n/routing";
-/*import ButtonScrollTop from "@/components/common/button-scroll-to-top/ButtonScrollTop";
-import useScrollToTop from "@/hooks/useScrollToTop";*/
+import ButtonScrollTop from "@/components/common/button-scroll-to-top/ButtonScrollTop";
 
 
 export default async function LocaleLayout({children, params}: {
@@ -31,7 +30,7 @@ export default async function LocaleLayout({children, params}: {
             <NavBar/>
                 <main className="position-relative" style={{marginTop: '80px'}}>
                     {children}
-                    {/*{isScrollToTop && <ButtonScrollTop/>}*/}
+                    <ButtonScrollTop/>
                 </main>
             <Footer/>
         </NextIntlClientProvider>

@@ -8,7 +8,8 @@ const icon: IconProject = {
     link: 'fa-solid fa-link',
     langCircle: 'fa-solid fa-circle',
     projectFolder: 'fa-solid fa-folder',
-    homepage: 'fa-solid fa-house'
+    homepage: 'fa-solid fa-house',
+    cookie: 'fa-solid fa-cookie-bite'
 }
 
 export default icon;
