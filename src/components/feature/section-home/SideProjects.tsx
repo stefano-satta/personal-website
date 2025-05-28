@@ -10,7 +10,7 @@ import Website22TemplateImg from '../../../../public/website22_template.png';
 import ICountryTemplateImg from '../../../../public/travel_bg.png';
 import CarRentalTemplateImg from '../../../../public/car-rental.png';
 import MySite23Img from '../../../../public/mysite23.png';
-import HoneyWebsiteImg from '../../../../public/honey-website-img-logo.svg';
+import HoneyWebsiteImg from '../../../../public/honey_bottle.png';
 import TitleSection from "@/components/common/title-subtitle-sections/TitleSection";
 import {Swiper, SwiperSlide} from "swiper/react";
 import { Navigation } from 'swiper/modules';
@@ -50,7 +50,7 @@ const SideProjects = () => {
                     <SPCard infoProject={honeyProject}>
                         <CategoryTitleCard categoryTitle={honeyProject.category}/>
                         <TitleCard title={honeyProject.name}/>
-                        <Image src={HoneyWebsiteImg} alt="honey_website_project" width={300} priority className="mt-5"/>
+                        <Image src={HoneyWebsiteImg} alt="honey_website_project" width={300} priority className="pb-2"/>
                     </SPCard>
                 </SwiperSlide>
                 <SwiperSlide>
