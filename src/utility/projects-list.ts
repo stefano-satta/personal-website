@@ -12,6 +12,18 @@ export const SIDE_PROJECTS: SideProject[] = [
         siteUrl: ''
     },
     {
+        name: 'Honey Company Website',
+        description: 'A vite vanilla JS website with Tailwind CSS. Inspired by theme website https://honey-production.weblium.site/',
+        category: 'Website',
+        framework: 'Vite',
+        language: 'JavaScript',
+        bgIconColor: 'bg-icon-javascript',
+        date: '06-01-2025',
+        isCompleted: true,
+        github: 'https://github.com/stefano-satta/honey-company-website',
+        siteUrl: 'https://stefano-satta.github.io/honey-company-website/'
+    },
+    {
         name: 'Cryptoboard',
         description: 'A simple NextJS dashboard and news from the world of the cryptocurrencies.',
         category: 'Finance',

@@ -10,6 +10,7 @@ import Website22TemplateImg from '../../../../public/website22_template.png';
 import ICountryTemplateImg from '../../../../public/travel_bg.png';
 import CarRentalTemplateImg from '../../../../public/car-rental.png';
 import MySite23Img from '../../../../public/mysite23.png';
+import HoneyWebsiteImg from '../../../../public/honey-website-img-logo.svg';
 import TitleSection from "@/components/common/title-subtitle-sections/TitleSection";
 import {Swiper, SwiperSlide} from "swiper/react";
 import { Navigation } from 'swiper/modules';
@@ -18,7 +19,7 @@ import {useTranslations} from "next-intl";
 
 
 const SideProjects = () => {
-    const [currentPortfolio, cryptoProject, websiteProject, goRightsProject, iCountryProject] = SIDE_PROJECTS;
+    const [currentPortfolio, honeyProject, cryptoProject, websiteProject, goRightsProject, iCountryProject] = SIDE_PROJECTS;
     const t = useTranslations('homepage.projects');
     return (
         <Container className="overflow-hidden" as="section" id="side-projects-hero">
@@ -43,6 +44,13 @@ const SideProjects = () => {
                         <CategoryTitleCard categoryTitle={currentPortfolio.category}/>
                         <TitleCard title={currentPortfolio.name} className="gradient-red"/>
                         <Image src={MySite23Img} alt="portfolio_template_project" width={300} priority className="mt-5"/>
+                    </SPCard>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <SPCard infoProject={honeyProject}>
+                        <CategoryTitleCard categoryTitle={honeyProject.category}/>
+                        <TitleCard title={honeyProject.name}/>
+                        <Image src={HoneyWebsiteImg} alt="honey_website_project" width={300} priority className="mt-5"/>
                     </SPCard>
                 </SwiperSlide>
                 <SwiperSlide>
