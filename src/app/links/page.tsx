@@ -6,13 +6,14 @@ import Icon from "@/components/common/icons/Icon";
 import Image from "next/image";
 import MeNotionImg from '../../../public/notion_me.png'
 import useCurrentDate from "@/hooks/useCurrentDate";
+import myMetadata from "@/utility/seo-metadata";
 
 export const metadata: Metadata = {
-    title: "Stefano Satta | Front-end developer",
-    description: "Passionate front-end developer based in Italy. Focused on building responsive front-end web applications with modern technologies",
+    title: myMetadata.title,
+    description: myMetadata.description,
     openGraph: {
-        title: 'Stefano Satta | Front-end developer',
-        description: 'Passionate front-end developer based in Italy. Focused on building responsive front-end web applications with modern technologies',
+        title: myMetadata.openGraph?.title,
+        description: myMetadata.openGraph?.description,
     },
 }
 

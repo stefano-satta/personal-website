@@ -4,13 +4,14 @@ import SideProjects from "@/components/feature/section-home/SideProjects";
 import SlidingWorking from "@/components/feature/section-home/SlidingWorking";
 import Contact from "@/components/feature/section-home/Contact";
 import {Metadata} from "next";
+import myMetadata from "@/utility/seo-metadata";
 
 export const metadata: Metadata = {
-    title: "Stefano Satta | Front-end developer",
-    description: "Passionate front-end developer based in Italy. Focused on building responsive front-end web applications with modern technologies",
+    title: myMetadata.title,
+    description: myMetadata.description,
     openGraph: {
-        title: 'Stefano Satta | Front-end developer',
-        description: 'Passionate front-end developer based in Italy. Focused on building responsive front-end web applications with modern technologies',
+        title: myMetadata.openGraph?.title,
+        description: myMetadata.openGraph?.description,
     },
 }
 

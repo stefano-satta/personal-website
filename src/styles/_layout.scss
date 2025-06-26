@@ -17,10 +17,6 @@ body {
 
 
 //  text
-:where(h1) {
-    margin-block: 0.67em;
-    font-size: 2em;
-}
 .text-grey { color: $color-grey; }
 .fw-ultra-bold { font-weight: 900 !important; }
 .fs-title-section { font-size: 4rem; }
