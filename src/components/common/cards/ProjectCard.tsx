@@ -33,10 +33,10 @@ const ProjectCard = (props: PropsWithChildren<ProjectCardProps>) => {
                     <CloseButton onClick={handleClose}/>
                     <div className="d-flex justify-content-between align-items-center">
                         <div>
-                            <h1>
+                            <h4 className="fs-2">
                                 <Icon icon={icon.projectFolder}/>
                                 <span className="ps-3">{infoProject?.name}</span>
-                            </h1>
+                            </h4>
                         </div>
                         {
                             !infoProject?.isCompleted &&

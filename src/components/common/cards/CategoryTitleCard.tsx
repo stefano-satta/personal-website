@@ -1,7 +1,7 @@
 const CategoryTitleCard = ({ categoryTitle}: {categoryTitle: string}) => {
     
     return (
-        <h3 className="category-title text-uppercase">{ categoryTitle }</h3>
+        <span className="category-title text-uppercase mb-2">{ categoryTitle }</span>
     )
 }
 
