@@ -4,6 +4,7 @@ interface IMyInfo {
     github: string;
     instagram: string;
     notionCV: string;
+    websiteUrl: string;
     sardiniaCoords: string;
     latestUpdate: string;
 }
