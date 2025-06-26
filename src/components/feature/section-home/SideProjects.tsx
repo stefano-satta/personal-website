@@ -50,7 +50,7 @@ const SideProjects = () => {
                     <SPCard infoProject={honeyProject}>
                         <CategoryTitleCard categoryTitle={honeyProject.category}/>
                         <TitleCard title={honeyProject.name}/>
-                        <Image src={HoneyWebsiteImg} alt="honey_website_project" width={300} priority className="pb-2"/>
+                        <Image src={HoneyWebsiteImg} alt="honey_website_project" width={300}  priority className="pb-2 h-auto"/>
                     </SPCard>
                 </SwiperSlide>
                 <SwiperSlide>

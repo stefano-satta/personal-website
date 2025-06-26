@@ -10,6 +10,7 @@ import SecondSlideImg from '../../../../public/skate.jpg';
 import ThirdSlideImg from '../../../../public/speranza-beach.jpg';
 import TitleSection from "@/components/common/title-subtitle-sections/TitleSection";
 import {useTranslations} from "next-intl";
+import {auto} from "@popperjs/core";
 
 
 const MyMediaSection = () => {
@@ -41,13 +42,13 @@ const MyMediaSection = () => {
                             <Carousel.Caption className="fs-2 fw-bold" style={{ zIndex: 20}}>{t('otherPassion')}</Carousel.Caption>
                             <Carousel controls={false} indicators={false} touch fade>
                                 <Carousel.Item interval={2000}>
-                                    <Image src={FirstSlideImg} alt={'slide-photo-surf'} fill sizes={''}/>
+                                    <Image src={FirstSlideImg} alt={'slide-photo-surf'} fill sizes={auto}/>
                                 </Carousel.Item>
                                 <Carousel.Item interval={2000}>
-                                    <Image src={SecondSlideImg} alt={'slide-photo-skate'} fill sizes={''}/>
+                                    <Image src={SecondSlideImg} alt={'slide-photo-skate'} fill sizes={auto}/>
                                 </Carousel.Item>
                                 <Carousel.Item interval={2000}>
-                                    <Image src={ThirdSlideImg} alt={'slide-photo-beach'} fill sizes={''}/>
+                                    <Image src={ThirdSlideImg} alt={'slide-photo-beach'} fill sizes={auto}/>
                                 </Carousel.Item>
                             </Carousel>
                         </Card>
