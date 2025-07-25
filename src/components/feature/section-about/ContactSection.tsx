@@ -13,7 +13,7 @@ const ContactSection = () => {
     const t = useTranslations('aboutPage.contacts');
 
     return (
-        <section className="mt-5 py-5 container">
+        <section className="mt-5 pb-5 container">
             <TitleSection title={t('title')} className="mb-4"/>
 
             <Link href={`mailto:${myInfo.email}?subject=Project info: New collaboration`}

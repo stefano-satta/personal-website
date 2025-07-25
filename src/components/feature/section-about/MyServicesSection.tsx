@@ -24,7 +24,7 @@ const MyServicesSection = () => {
                 </Row>
                 <hr className="border-bottom border-white"/>
                 <Row className="py-5 mb-3 fs-4">
-                    <Col xs={2} lg={2}>02</Col>
+                    <Col xs={2} lg={2}>03</Col>
                     <Col xs={10} lg={4}>{t('category.webApplications.title')}</Col>
                     <Col xs={12} lg={6}>{t('category.webApplications.description')}</Col>
                 </Row>
