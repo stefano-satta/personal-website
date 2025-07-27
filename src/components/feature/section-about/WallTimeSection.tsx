@@ -18,7 +18,7 @@ const WallTimeSection = () => {
     }, [])
 
     return (
-        <section id="wall-time-hero" className="container">
+        <section id="wall-time-hero" className="container pt-4">
             <Card>
                 <Image src={AboutWallImg} alt={'about-wall-img'} fill priority/>
                 <div suppressHydrationWarning className="h-100 w-100 d-flex align-items-center justify-content-center position-absolute text-white text-lowercase fw-ultra-bold text-center">

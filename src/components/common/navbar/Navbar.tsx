@@ -36,7 +36,7 @@ const NavBar = () => {
     }, [])
 
     return (
-        <Navbar expand="lg" fixed="top" className="py-3 mx-2">
+        <Navbar expand="lg" fixed="top" className="py-3 mx-auto" style={{maxWidth: '900px'}}>
             <Container className={nbScrolledClass}>
                 <NavbarLogo/>
                 <button type="button"
@@ -53,21 +53,21 @@ const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="fs-5 d-none d-lg-inline-flex centered-absolute">
                         <Nav.Item className="me-5">
-                            <Link className={`link text-uppercase ${nbScrolledClass ? 'text-white' : 'text-black'}`}
+                            <Link className={`link text-lowercase ${nbScrolledClass ? 'text-white' : 'text-black'}`}
                                   href={'/'}
                                   passHref>
                                 {t('homepage')}
                             </Link>
                         </Nav.Item>
                         <Nav.Item className="me-5">
-                            <Link className={`link text-uppercase ${nbScrolledClass ? 'text-white' : 'text-black'}`}
+                            <Link className={`link text-lowercase ${nbScrolledClass ? 'text-white' : 'text-black'}`}
                                   href={'/about'}
                                   passHref>
                                 {t('about')}
                             </Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Link className={`link text-uppercase ${nbScrolledClass ? 'text-white' : 'text-black'}`}
+                            <Link className={`link text-lowercase ${nbScrolledClass ? 'text-white' : 'text-black'}`}
                                   href={'/#contact-hero'}
                                   passHref>
                                 {t('contact')}
@@ -80,7 +80,7 @@ const NavBar = () => {
                         <Link href={`mailto:${myInfo.email}?subject=Project info`}
                               passHref
                               id="hire-me-button"
-                              className="btn btn-black rounded-pill ms-3">
+                              className="btn btn-yellow-accent rounded-pill ms-4">
                             {t('hireMe')}
                         </Link>
                     </div>

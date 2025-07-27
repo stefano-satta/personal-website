@@ -18,7 +18,7 @@ const FirstHero = () => {
     return (
         <Container as="section" id="first-hello-hero" className="text-center position-relative">
             <TitleFirstHero/>
-            <p className="fs-3 mt-5" dangerouslySetInnerHTML={{__html: t.raw('welcomeMessage')}}></p>
+            <p className="fs-3" dangerouslySetInnerHTML={{__html: t.raw('welcomeMessage')}}></p>
             <SocialContacts className="mt-4 d-none d-lg-flex" socialColorLink="social-link-black"/>
             <Link href={`mailto:${myInfo.email}?subject=Project info.`}
                 passHref
