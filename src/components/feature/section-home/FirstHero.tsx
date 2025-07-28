@@ -18,11 +18,11 @@ const FirstHero = () => {
     return (
         <Container as="section" id="first-hello-hero" className="text-center position-relative">
             <TitleFirstHero/>
-            <p className="fs-3" dangerouslySetInnerHTML={{__html: t.raw('welcomeMessage')}}></p>
+            <p className="fs-3 text-wrap-balance" dangerouslySetInnerHTML={{__html: t.raw('welcomeMessage')}}/>
             <SocialContacts className="mt-4 d-none d-lg-flex" socialColorLink="social-link-black"/>
             <Link href={`mailto:${myInfo.email}?subject=Project info.`}
                 passHref
-                className="btn btn-black d-lg-none mt-4 rounded-pill">
+                className="btn btn-yellow-accent d-lg-none mt-4 rounded-pill">
                 {tActions('hireMe')}
             </Link>
             {!isScrollToTop && <CookieButton/>}
