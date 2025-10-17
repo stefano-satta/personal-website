@@ -12,8 +12,7 @@ import {useTranslations} from "next-intl";
 import {Link} from "@/i18n/routing";
 import LocaleSwitcher from "@/components/common/navbar/locale-switcher/LocaleSwitcher";
 
-
-const SCROLLED_CLASS_STYLE_NAVBAR: string = 'navbar-scrolled bg-black text-white rounded-pill';
+const SCROLLED_CLASS_STYLE_NAVBAR: string = 'navbar-scrolled text-black rounded-pill';
 
 
 const NavBar = () => {
@@ -23,7 +22,6 @@ const NavBar = () => {
     const handleShowMenu = () => setShowMenu(true);
     const t = useTranslations('navbar');
 
-
     useEffect(() => {
         window.addEventListener("scroll", () => {
             if (window.scrollY > 50) {
@@ -32,11 +30,10 @@ const NavBar = () => {
                 setNbScrolledClass('');
             }
         });
-
     }, [])
 
     return (
-        <Navbar expand="lg" fixed="top" className="py-3 mx-auto" style={{maxWidth: '900px'}}>
+        <Navbar expand="lg" fixed="top" className="py-3 mx-auto px-2 px-md-0" style={{maxWidth: '900px'}}>
             <Container className={nbScrolledClass}>
                 <NavbarLogo/>
                 <button type="button"
@@ -53,21 +50,21 @@ const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="fs-5 d-none d-lg-inline-flex centered-absolute">
                         <Nav.Item className="me-5">
-                            <Link className={`link text-lowercase ${nbScrolledClass ? 'text-white' : 'text-black'}`}
+                            <Link className={`link ${nbScrolledClass ? 'text-white' : 'text-black'}`}
                                   href={'/'}
                                   passHref>
                                 {t('homepage')}
                             </Link>
                         </Nav.Item>
                         <Nav.Item className="me-5">
-                            <Link className={`link text-lowercase ${nbScrolledClass ? 'text-white' : 'text-black'}`}
+                            <Link className={`link ${nbScrolledClass ? 'text-white' : 'text-black'}`}
                                   href={'/about'}
                                   passHref>
                                 {t('about')}
                             </Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Link className={`link text-lowercase ${nbScrolledClass ? 'text-white' : 'text-black'}`}
+                            <Link className={`link ${nbScrolledClass ? 'text-white' : 'text-black'}`}
                                   href={'/#contact-hero'}
                                   passHref>
                                 {t('contact')}
