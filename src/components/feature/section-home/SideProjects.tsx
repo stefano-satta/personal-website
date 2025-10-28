@@ -9,7 +9,7 @@ import cryptoTemplateImg from '../../../../public/crypto_template.png';
 import Website22TemplateImg from '../../../../public/website22_template.png';
 import ICountryTemplateImg from '../../../../public/travel_bg.png';
 import FakezonStoreTemplateImg from '../../../../public/ecommerce.png';
-import MySite23Img from '../../../../public/mysite23.png';
+import CurrentPortfolioImg from '../../../../public/current_portfolio.png';
 import HoneyWebsiteImg from '../../../../public/honey_bottle.png';
 import TitleSection from "@/components/common/title-subtitle-sections/TitleSection";
 import {Swiper, SwiperSlide} from "swiper/react";
@@ -43,7 +43,7 @@ const SideProjects = () => {
                     <SPCard className="bg-black text-white" infoProject={currentPortfolio}>
                         <CategoryTitleCard categoryTitle={currentPortfolio.category}/>
                         <TitleCard title={currentPortfolio.name} className="gradient-red"/>
-                        <Image src={MySite23Img} alt="portfolio_template_project" width={300} priority className="mt-5"/>
+                        <Image src={CurrentPortfolioImg} alt="portfolio_template_project" width={300} priority className="mt-5"/>
                     </SPCard>
                 </SwiperSlide>
                 <SwiperSlide>
