@@ -8,7 +8,7 @@ import Image from "next/image";
 import cryptoTemplateImg from '../../../../public/crypto_template.png';
 import Website22TemplateImg from '../../../../public/website22_template.png';
 import ICountryTemplateImg from '../../../../public/travel_bg.png';
-import CarRentalTemplateImg from '../../../../public/car-rental.png';
+import FakezonStoreTemplateImg from '../../../../public/ecommerce.png';
 import MySite23Img from '../../../../public/mysite23.png';
 import HoneyWebsiteImg from '../../../../public/honey_bottle.png';
 import TitleSection from "@/components/common/title-subtitle-sections/TitleSection";
@@ -19,7 +19,7 @@ import {useTranslations} from "next-intl";
 
 
 const SideProjects = () => {
-    const [currentPortfolio, honeyProject, cryptoProject, websiteProject, goRightsProject, iCountryProject] = SIDE_PROJECTS;
+    const [currentPortfolio, fakezonProject, honeyProject, cryptoProject, websiteProject, iCountryProject] = SIDE_PROJECTS;
     const t = useTranslations('homepage.projects');
     return (
         <Container className="overflow-hidden" as="section" id="side-projects-hero">
@@ -47,6 +47,13 @@ const SideProjects = () => {
                     </SPCard>
                 </SwiperSlide>
                 <SwiperSlide>
+                    <SPCard className="bg-black text-white" infoProject={fakezonProject}>
+                        <CategoryTitleCard categoryTitle={fakezonProject.category}/>
+                        <TitleCard title={fakezonProject.name}/>
+                        <Image src={FakezonStoreTemplateImg} alt="fakezon_website_project" width={300}  priority className="pb-2 h-auto"/>
+                    </SPCard>
+                </SwiperSlide>
+                <SwiperSlide>
                     <SPCard infoProject={honeyProject}>
                         <CategoryTitleCard categoryTitle={honeyProject.category}/>
                         <TitleCard title={honeyProject.name}/>
@@ -61,13 +68,6 @@ const SideProjects = () => {
                     </SPCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <SPCard infoProject={iCountryProject}>
-                        <CategoryTitleCard categoryTitle={iCountryProject.category}/>
-                        <TitleCard title={iCountryProject.name}/>
-                        <Image src={ICountryTemplateImg} alt="translation_template_project" width={320} priority/>
-                    </SPCard>
-                </SwiperSlide>
-                <SwiperSlide>
                     <SPCard className="bg-black text-white" infoProject={websiteProject}>
                         <CategoryTitleCard categoryTitle={websiteProject.category}/>
                         <TitleCard title={websiteProject.name}/>
@@ -75,10 +75,10 @@ const SideProjects = () => {
                     </SPCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <SPCard className="bg-black text-white" infoProject={goRightsProject}>
-                        <CategoryTitleCard categoryTitle={goRightsProject.category}/>
-                        <TitleCard title={goRightsProject.name}/>
-                        <Image src={CarRentalTemplateImg} alt="music_template_project" width={320} priority/>
+                    <SPCard infoProject={iCountryProject}>
+                        <CategoryTitleCard categoryTitle={iCountryProject.category}/>
+                        <TitleCard title={iCountryProject.name}/>
+                        <Image src={ICountryTemplateImg} alt="translation_template_project" width={320} priority/>
                     </SPCard>
                 </SwiperSlide>
             </Swiper>

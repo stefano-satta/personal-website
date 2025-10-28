@@ -12,6 +12,18 @@ export const SIDE_PROJECTS: SideProject[] = [
         siteUrl: ''
     },
     {
+        name: 'Fakezon Store',
+        description: 'An angular v20 App store. Created to study and improve new signal features. Tailwind UI kit.',
+        category: 'ECommerce',
+        framework: 'Angular',
+        language: 'Typescript',
+        bgIconColor: 'bg-icon-typescript',
+        date: '28-10-2025',
+        isCompleted: false,
+        github: 'https://github.com/stefano-satta/fakezon-store',
+        siteUrl: 'https://stefano-satta.github.io/fakezon-store',
+    },
+    {
         name: 'Honey Company Website',
         description: 'A vite vanilla JS website with Tailwind CSS. Inspired by theme website https://honey-production.weblium.site/',
         category: 'Website',
@@ -36,6 +48,18 @@ export const SIDE_PROJECTS: SideProject[] = [
         siteUrl: 'https://cryptosboard.netlify.app/'
     },
     {
+        name: 'iCountry',
+        description: 'A VueJS App that it provides information world countries. Tailwind UI kit.',
+        category: 'Dashboard Info',
+        framework: 'VueJS',
+        language: 'Typescript',
+        bgIconColor: 'bg-icon-typescript',
+        date: '18-12-2024',
+        isCompleted: false,
+        github: 'https://github.com/stefano-satta/icountry',
+        siteUrl: 'https://stefano-satta.github.io/icountry'
+    },
+    {
         name: 'My website 2022',
         description: 'My website template realized in NextJS (2022).',
         category: 'Portfolio',
@@ -58,17 +82,5 @@ export const SIDE_PROJECTS: SideProject[] = [
         isCompleted: false,
         github: 'https://github.com/stefano-satta/car-rental-hub',
         siteUrl: ''
-    },
-    {
-        name: 'iCountry',
-        description: 'A VueJS App that it provides information world countries. Tailwind UI kit.',
-        category: 'Dashboard Info',
-        framework: 'VueJS',
-        language: 'Typescript',
-        bgIconColor: 'bg-icon-typescript',
-        date: '18-12-2024',
-        isCompleted: false,
-        github: 'https://github.com/stefano-satta/icountry',
-        siteUrl: 'https://stefano-satta.github.io/icountry'
     }
 ]
