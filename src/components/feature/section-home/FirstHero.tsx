@@ -16,7 +16,7 @@ const FirstHero = () => {
     const {isScrollToTop} = useScrollToTop();
 
     return (
-        <Container as="section" id="first-hello-hero" className="text-center position-relative">
+        <Container fluid as="section" id="first-hello-hero" className="text-center position-relative">
             <TitleFirstHero/>
             <p className="fs-3 text-wrap-balance" dangerouslySetInnerHTML={{__html: t.raw('welcomeMessage')}}/>
             <SocialContacts className="mt-4 d-none d-lg-flex" socialColorLink="social-link-black"/>
