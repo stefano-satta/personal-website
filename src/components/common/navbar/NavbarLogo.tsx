@@ -4,12 +4,10 @@ const NavbarLogo = () => {
     
     return (
         <Link id="navbar-logo"
-            className="text-reset text-decoration-none fs-3"
+            className="text-reset fw-bold text-decoration-none fs-3"
             href={'/'}
             passHref>
-                stefano
-            <span className="fw-bold">satta</span>
-            <small><sup>&copy;</sup></small>
+                S.
         </Link>
     )
 }
