@@ -1,4 +1,5 @@
-import DOMPurify from 'isomorphic-dompurify';
+"use client"
+import DOMPurify from "isomorphic-dompurify";
 
 interface SubtitleSectionProps {
     subtitle: string;
