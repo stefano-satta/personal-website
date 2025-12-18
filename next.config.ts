@@ -15,8 +15,7 @@ const nextConfig: NextConfig = {
     },
     env: {
         gAnalyticsID: 'G-FVXXJJRYNQ'
-    },
-    turbopack: {}
+    }
 };
 
 export default withNextIntl(nextConfig);

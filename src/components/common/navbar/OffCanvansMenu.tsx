@@ -3,7 +3,6 @@ import { Nav, Offcanvas } from "react-bootstrap";
 import NavbarLogo from "./NavbarLogo";
 import SocialContacts from "./SocialContacts";
 import useCurrentDate from "@/hooks/useCurrentDate";
-import myInfo from "@/utility/my-info";
 import {useTranslations} from "next-intl";
 import { Link } from "@/i18n/routing";
 import LocaleSwitcher from "@/components/common/navbar/locale-switcher/LocaleSwitcher";
@@ -58,7 +57,7 @@ const OffCanvasMenu = (props: OffCanvasMenuProps) => {
                 </Nav>
             </Offcanvas.Body>
             <SocialContacts className="justify-content-center" socialColorLink="social-link-white"/>
-            <p className="m-0 text-center">&copy; {getCurrentYear()} Stefano Satta</p>
+            <p className="m-0 mt-3 text-center">&copy; {getCurrentYear()} Stefano Satta</p>
         </Offcanvas>
     )
 }

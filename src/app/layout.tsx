@@ -12,8 +12,8 @@ const lato = Lato({
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
     return (
-        <html lang="en">
-            <body className={lato.className} data-scroll-behavior="smooth">{children}</body>
+        <html lang="en" data-scroll-behavior="smooth">
+            <body className={lato.className} >{children}</body>
             <GoogleAnalytics gaId={process.env.gAnalyticsID as string} />
         </html>
     );
