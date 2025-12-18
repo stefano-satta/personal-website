@@ -1,18 +1,22 @@
 import createNextIntlPlugin from 'next-intl/plugin';
+import {NextConfig} from "next";
 
 const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
     sassOptions: {
         silenceDeprecations: ['legacy-js-api'],
     },
     images: {
-        domains: ['cdn2.iconfinder.com']
+        remotePatterns: [
+            { protocol: "https", hostname: 'cdn2.iconfinder.com'}
+        ]
     },
     env: {
         gAnalyticsID: 'G-FVXXJJRYNQ'
-    }
+    },
+    turbopack: {}
 };
 
 export default withNextIntl(nextConfig);
