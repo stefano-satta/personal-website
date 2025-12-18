@@ -58,7 +58,6 @@ const OffCanvasMenu = (props: OffCanvasMenuProps) => {
                 </Nav>
             </Offcanvas.Body>
             <SocialContacts className="justify-content-center" socialColorLink="social-link-white"/>
-            <p className="m-0 mt-3 text-center">Latest update {myInfo.latestUpdate}</p>
             <p className="m-0 text-center">&copy; {getCurrentYear()} Stefano Satta</p>
         </Offcanvas>
     )
