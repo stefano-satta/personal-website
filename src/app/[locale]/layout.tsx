@@ -7,6 +7,7 @@ import Footer from "@/components/common/footer/Footer";
 import {routing} from "@/i18n/routing";
 import ButtonScrollTop from "@/components/common/button-scroll-to-top/ButtonScrollTop";
 
+export const runtime = 'nodejs';
 
 export default async function LocaleLayout({children, params}: {
     children: React.ReactNode;

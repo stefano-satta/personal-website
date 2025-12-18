@@ -6,7 +6,6 @@ interface IMyInfo {
     notionCV: string;
     websiteUrl: string;
     sardiniaCoords: string;
-    latestUpdate: string;
 }
 
 interface ILinksBio {
