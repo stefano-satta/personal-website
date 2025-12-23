@@ -6,8 +6,7 @@ import TitleCard from "@/components/common/cards/TitleCard";
 import {SIDE_PROJECTS} from "@/utility/projects-list";
 import Image from "next/image";
 import cryptoTemplateImg from '../../../../public/crypto_template.png';
-import Website22TemplateImg from '../../../../public/website22_template.png';
-import ICountryTemplateImg from '../../../../public/travel_bg.png';
+import ICountryTemplateImg from '../../../../public/icountry.png';
 import FakezonStoreTemplateImg from '../../../../public/ecommerce.png';
 import CurrentPortfolioImg from '../../../../public/current_portfolio.png';
 import HoneyWebsiteImg from '../../../../public/honey_bottle.png';
@@ -19,7 +18,7 @@ import {useTranslations} from "next-intl";
 
 
 const SideProjects = () => {
-    const [currentPortfolio, fakezonProject, honeyProject, cryptoProject, websiteProject, iCountryProject] = SIDE_PROJECTS;
+    const [currentPortfolio, fakezonProject, honeyProject, cryptoProject, icountryProject] = SIDE_PROJECTS;
     const t = useTranslations('homepage.projects');
     return (
         <Container className="overflow-hidden" as="section" id="side-projects-hero">
@@ -68,17 +67,10 @@ const SideProjects = () => {
                     </SPCard>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <SPCard className="bg-black text-white" infoProject={websiteProject}>
-                        <CategoryTitleCard categoryTitle={websiteProject.category}/>
-                        <TitleCard title={websiteProject.name}/>
-                        <Image src={Website22TemplateImg} alt="portfolio_template_project" width={320} priority/>
-                    </SPCard>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <SPCard infoProject={iCountryProject}>
-                        <CategoryTitleCard categoryTitle={iCountryProject.category}/>
-                        <TitleCard title={iCountryProject.name}/>
-                        <Image src={ICountryTemplateImg} alt="translation_template_project" width={320} priority/>
+                    <SPCard className="bg-black text-white" infoProject={icountryProject}>
+                        <CategoryTitleCard categoryTitle={icountryProject.category}/>
+                        <TitleCard title={icountryProject.name}/>
+                        <Image src={ICountryTemplateImg} alt="portfolio_template_project" width={320} priority/>
                     </SPCard>
                 </SwiperSlide>
             </Swiper>

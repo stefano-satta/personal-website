@@ -50,7 +50,7 @@ export const SIDE_PROJECTS: SideProject[] = [
     {
         name: 'iCountry',
         description: 'A VueJS App that it provides information world countries. Tailwind UI kit.',
-        category: 'Dashboard Info',
+        category: 'Info & Weather',
         framework: 'VueJS',
         language: 'Typescript',
         bgIconColor: 'bg-icon-typescript',
