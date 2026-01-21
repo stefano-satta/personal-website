@@ -17,10 +17,9 @@ const MyMediaSection = () => {
     const t = useTranslations('aboutPage.mediaSection');
     
     return (
-        <section id="media-section">
+        <section id="media-section" className="bg-black">
             <Container>
-                <TitleSection title={t('title')}/>
-                {/*<TitleSection title={'It\'s time to have a fun! 😉'}/>*/}
+                <TitleSection title={t('title')} className="text-white font-archivo-black text-center"/>
                 <Row className="py-5">
                     <Col xs={12} md={6}>
                         <div className="">

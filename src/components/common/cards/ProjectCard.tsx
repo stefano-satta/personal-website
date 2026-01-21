@@ -8,6 +8,7 @@ import CustomTooltip from "@/components/common/custom-tooltip/CustomTooltip";
 import {Badge, CloseButton} from "react-bootstrap";
 import icon from "@/utility/icon";
 import { Link } from '@/i18n/routing';
+import {useTranslations} from "next-intl";
 
 interface ProjectCardProps extends HTMLAttributes<HTMLDivElement> {
     infoProject: SideProject;
@@ -15,6 +16,8 @@ interface ProjectCardProps extends HTMLAttributes<HTMLDivElement> {
 
 const ProjectCard = (props: PropsWithChildren<ProjectCardProps>) => {
     const {children, className, infoProject} = props;
+    const tProject = useTranslations('homepage.projects.list');
+    const tActions = useTranslations('actions');
     const [showModal, setShowModal] = useState(false);
     const handleClose = () => setShowModal(false);
     const handleShow = () => setShowModal(true);
@@ -35,7 +38,7 @@ const ProjectCard = (props: PropsWithChildren<ProjectCardProps>) => {
                         <div>
                             <h4 className="fs-2">
                                 <Icon icon={icon.projectFolder}/>
-                                <span className="ps-3">{infoProject?.name}</span>
+                                <span className="ps-3 font-archivo-black text-uppercase">{infoProject?.name}</span>
                             </h4>
                         </div>
                         {
@@ -46,7 +49,7 @@ const ProjectCard = (props: PropsWithChildren<ProjectCardProps>) => {
                         }
                     </div>
 
-                    <p className="mt-3">{infoProject?.description}</p>
+                    <p className="mt-3">{tProject(infoProject?.description)}</p>
                     <div className="mt-5 d-flex justify-content-between">
                     <div>
                         <Icon icon={icon.langCircle}
@@ -56,7 +59,7 @@ const ProjectCard = (props: PropsWithChildren<ProjectCardProps>) => {
                     <div className="d-flex">
                         { 
                             infoProject?.github &&
-                            <CustomTooltip text={'GitHub project'}>
+                            <CustomTooltip text={'GitHub'}>
                                 <Link href={infoProject?.github} passHref target={'_blank'} className="link-icon me-3">
                                     <Icon icon={icon.github} />
                                 </Link>
@@ -65,7 +68,7 @@ const ProjectCard = (props: PropsWithChildren<ProjectCardProps>) => {
                         }
                         {
                             infoProject?.siteUrl &&
-                                <CustomTooltip text={'Visit the site!'}>
+                                <CustomTooltip text={tActions('visit_site')}>
                                     <Link href={infoProject?.siteUrl} passHref target={'_blank'} className="link-icon">
                                         <Icon icon={icon.link} />
                                     </Link>

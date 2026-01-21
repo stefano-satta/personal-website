@@ -12,6 +12,8 @@ interface SideProject {
 }
 
 interface IconProject {
+    arrowUp: string,
+
     mail: string,
     linkedin: string,
     github: string,

@@ -9,35 +9,59 @@
     "lastUpdate": "Ultimo aggiornamento {timeUpdate}"
   },
   "homepage": {
-    "welcomeMessage": "Ciao! Sono <strong class=\"text-black\">Stefano Satta</strong> 👋🏻 <br/>\n Sviluppo applicazioni e siti web responsive con <br/>\n le migliori tecnologie front-end.",
     "whatIDo": {
-      "title": "Cosa faccio.",
-      "subTitle": "Aiuto startup e aziende a trasformare <strong>idee in progetti</strong>. <br/>\n Esperienza in sviluppo, testing and debugging applicazioni web e siti web.",
+      "welcomeMessage": "Ciao sono Stefano - <strong>sviluppatore front-end</strong>.<br/>\nProgetto e sviluppo applicazioni e siti web responsive con <br/> le migliori tecnologie unendo performance e creatività",
+      "subMessage": "Specializzato nello sviluppo di progetti di medie e grandi dimensioni<br/>utilizzando tecnologie come Angular, React, NextJS, TypeScript",
       "box": {
-        "ideaProd": "Turning ideas into real life <span class=\"black-highlight\">products</span>.",
-        "techs": "Tecnologie",
-        "projects": "Progetti",
-        "moreInfo": "Vuoi sapere di più?",
-        "lookHere": "Guarda qui"
+        "experience": {
+          "data": "7",
+          "title": "Anni di esperienza"
+        },
+        "project": {
+          "data": "20",
+          "title": "Progetti"
+        },
+        "client": {
+          "data": "100",
+          "title": "Clienti soddisfatti"
+        }
       }
     },
     "projects": {
       "title": "Progetti.",
-      "subTitle": "Una piccola lista di progetti scelti da me."
+      "subTitle": "Una piccola lista di progetti e case-studies realizzati da me.",
+      "list": {
+        "portfolio": {
+          "description": "Creazione del portfolio corrente. Realizzato con NextJS, TypeScript e Next-intl per il multilingua"
+        },
+        "fakezon": {
+          "description": "Store creato con Angular v20, progetto studio per migliorare le nuove funzionalità del framework come i Signal. Tailwind UI kit"
+        },
+        "honey_website": {
+          "description": "Sito web a tema azienda produttrice miele, realizzato con vite vanilla js. Ispirato al tema https://honey-production.weblium.site/ "
+        },
+        "cryptoboard": {
+          "description": "NextJS dashboard a tema finanza con notizie relative alle criptocurrencies"
+        },
+        "icountry": {
+          "description": "Principali info su Stati nel mondo e relativo meteo. VueJS e Tailwind per la sua realizzazione"
+        }
+      }
     },
     "slidingReference": {
       "title": "Lavori e progetti in"
     },
     "contacts": {
       "title": "Iniziamo <br />un progetto <br /> insieme?",
-      "subTitle": "<strong class=\"fluo-available\">Disponibile ora</strong> per nuovi progetti",
-      "message": "Per qualsiasi informazione, <br/> contattami subito!"
+      "subTitle": "<strong class=\"fluo-available position-relative z-1\">Disponibile ora</strong> per nuovi progetti",
+      "message": "Per qualsiasi informazione, <br/> contattami subito!",
+      "location": "Based in Sardinia - <br/>Working Worldwide"
     }
   },
   "aboutPage": {
-    "title": "Ciao! <br/> Lascia che ti parli <br/>di me...",
-    "presentation": "Mi chiamo <span class=\"fw-bold\">Stefano Satta </span>\n e <br/> sono uno\n <span class=\"fw-bold\"> sviluppatore front-end</span>",
-    "shortMessage": "Lavoro nel campo dello sviluppo software da più di 7 anni. Ho prese parte a più di 15 progetti con clienti e aziende di varie dimensioni, sia private che nel campo della pubblica amministrazione",
+    "title": "Lascia che ti parli <br/> di me...",
+    "presentation": "Mi chiamo <span class=\"fw-bold\">Stefano Satta </span>\n e sono uno\n <span class=\"fw-bold\"> sviluppatore front-end</span>",
+    "shortMessage": "Lavoro nel campo dello sviluppo software da più di 7 anni. <br/> Ho preso parte a più di 15 progetti con clienti e aziende di varie dimensioni, sia private che nel campo della pubblica amministrazione",
     "shortMessageExperience": "Tutte queste esperienze mi hanno permesso di acquisire e migliorare le competenze tecniche ma anche le soft skills.",
     "checkBelowServices": "Ecco cosa possiamo fare insieme!",
     "myServices": {
@@ -81,7 +105,8 @@
   "actions": {
     "hireMe": "Contattami!",
     "mailCopied": "Mail copiata 📋!",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "visit_site": "Visita il sito!"
   },
   "notFoundPage": {
     "title": "Not Found Error"

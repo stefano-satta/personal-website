@@ -7,9 +7,11 @@
     box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
     overflow: hidden;
     transition: all .3s cubic-bezier(0,0,.5,1);
+    height: 100%;
+    position: relative;
 
     &.card-side-projects {
-        width: 23.52941rem;
+        /*width: 23.52941rem;*/
         height: 29.41176rem;
         margin-right: 20px;
         

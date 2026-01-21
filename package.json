@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
+    "@motionone/utils": "^10.18.0",
     "@next/third-parties": "^16.0.10",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
     "isomorphic-dompurify": "^2.34.0",
+    "lottie-react": "^2.4.1",
+    "motion": "^12.24.4",
     "next": "^16.0.10",
     "next-intl": "^4.6.1",
     "react": "^19.2.3",

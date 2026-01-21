@@ -3,6 +3,14 @@
 }
 
 @media screen and (max-width: 991px) {
+    #first-hello-hero {
+        padding-top: 100px;
+
+        #blob-lottie {
+            width: 100%;
+        }
+    }
+
     .sliding-container {
         .loop-element {
             &::before { left: 3vw; }
@@ -22,4 +30,8 @@
     .fs-contact-mail { font-size: 1.5rem;}
     [class*="col-"] { margin-bottom: 15px; }
     #about-section-hero .projects-count { font-size: 6rem; bottom: -25px;}
+    #first-hello-hero {
+        h1 { padding-top: 70px; }
+        img { width: 90%; height: auto; }
+    }
 }

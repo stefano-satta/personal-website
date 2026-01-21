@@ -9,35 +9,59 @@
     "lastUpdate": "Latest update {timeUpdate}"
   },
   "homepage": {
-    "welcomeMessage": "Hi! I’m <strong class=\"text-black\">Stefano Satta</strong> 👋🏻<br/>\n Focused on building responsive front-end web <br/>\n applications and website with modern technologies.",
     "whatIDo": {
-      "title": "What I Do.",
-      "subTitle": "I help startups and companies transform <strong>ideas into projects</strong>. <br/>\n Experience in developing, testing and debugging web applications and websites.",
+      "welcomeMessage": "Hi! I'm Stefano - <strong>Front-end Developer</strong>.<br/>Design and develop applications and responsive website with <br/> the best technologies combining performance and creativity",
+      "subMessage": "Specialized on developing medium and big projects<br/> using modern technologies like Angular, React, NextJS, TypeScript",
       "box": {
-        "ideaProd": "Turning ideas into real life <span class=\"black-highlight\">products</span>.",
-        "techs": "Modern technologies",
-        "projects": "Projects",
-        "moreInfo": "More of me?",
-        "lookHere": "Look here"
+        "experience": {
+          "data": "7",
+          "title": "Years of experience"
+        },
+        "project": {
+          "data": "20",
+          "title": "Projects"
+        },
+        "client": {
+          "data": "100",
+          "title": "Satisfied clients"
+        }
       }
     },
     "projects": {
       "title": "Projects.",
-      "subTitle": "A small list of other projects chosen by me."
+      "subTitle": "A small list of other projects chosen by me.",
+      "list": {
+        "portfolio": {
+          "description": "My portfolio realized in NextJS and TypeScript, Next-intl for translation"
+        },
+        "fakezon": {
+          "description": "An angular v20 App store. Created to study and improve new signal features. Tailwind UI kit."
+        },
+        "honey_website": {
+          "description": "A vite vanilla JS website with Tailwind CSS. Inspired by theme website https://honey-production.weblium.site/"
+        },
+        "cryptoboard": {
+          "description": "A simple NextJS dashboard and news from the world of the cryptocurrencies."
+        },
+        "icountry": {
+          "description": "A VueJS App that it provides information world countries. Tailwind UI kit."
+        }
+      }
     },
     "slidingReference": {
       "title": "Worked and projects in"
     },
     "contacts": {
       "title": "Wanna be <br />starting something <br /> together?",
-      "subTitle": "<strong class=\"fluo-available\">Now available</strong> to new projects",
-      "message": "If you have any questions, <br/> feel free to contact me."
+      "subTitle": "<strong class=\"fluo-available position-relative z-1\">Now available</strong> to new projects",
+      "message": "If you have any questions, <br/> feel free to contact me.",
+      "location": "Based in Sardinia - <br/>Working Worldwide"
     }
   },
   "aboutPage": {
-    "title": "Hello! <br/> Let me introduce <br/>my self.",
-    "presentation": "My name is <span class=\"fw-bold\">Stefano Satta </span>\n and <br/> I am a\n <span class=\"fw-bold\"> creative front-end developer</span>",
-    "shortMessage": "I work in the field of software development for over 6 years. I have partecipated in more than 15 projects with clients and companies of various sizes, both in the private sector and in public administration",
+    "title": "Let me introduce <br/>my self.",
+    "presentation": "My name is <span class=\"fw-bold\">Stefano Satta </span>\n and I am a\n <span class=\"fw-bold\"> creative front-end developer</span>",
+    "shortMessage": "I work in the field of software development for over 6 years. <br/> I have partecipated in more than 15 projects with clients and companies of various sizes, both in the private sector and in public administration",
     "shortMessageExperience": "These experiences have allowed me to acquire and improve technical skills as well as soft skills.",
     "checkBelowServices": "Let's see below what we can do together",
     "myServices": {
@@ -80,7 +104,8 @@
   "actions": {
     "hireMe": "Hire me!",
     "mailCopied": "Mail copied 📋!",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "visit_site": "Visit the site!"
   },
   "notFoundPage": {
     "title": "Not Found Error"

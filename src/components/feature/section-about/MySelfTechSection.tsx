@@ -13,27 +13,27 @@ import TypescriptLogo from "../../../../public/logos/typescript.png";
 import WebpackLogo from "../../../../public/logos/webpack.png";
 import Icon from "@/components/common/icons/Icon";
 import {useTranslations} from "next-intl";
+import CircularHello from "@/components/common/circular-hello/CircularHello";
 
 
 const MySelfTechSection = () => {
     const t = useTranslations('aboutPage');
 
     return (
-        <section id="my-self-tech-section">
+        <section id="my-self-tech-section" className="bg-black text-white">
             <Container className="py-5">
-                <Row className="pb-5">
-                    <Col xs={12} className="position-relative">
-                        <TitleSection title={t('title')}
-                                      className="fs-title-mega mb-5"/>
-                        <p className="fs-2 my-self" dangerouslySetInnerHTML={{__html: t.raw('presentation')}}></p>
-                    </Col>
-                </Row>
-                <Row className="pb-5">
-                    <Col xs={12}>
-                        <p className="mt-5 fs-2">{t('shortMessage')}</p>
-                    </Col>
-                </Row>
-                <Row className="mb-5">
+                <div className="mt-5 w-100 d-flex justify-content-center">
+                    <div className="w-75 d-flex justify-content-center">
+                        <div>
+                            <CircularHello/>
+                        </div>
+                        <div className="ps-5">
+                            <TitleSection title={t('title')}
+                                          className="fs-title-section font-archivo-black"/>
+                        </div>
+                    </div>
+                </div>
+                <Row className="mt-5 pt-5 mb-5">
                     <Col xs={12} lg={4} className="mb-5 mb-lg-0">
                         <div style={{
                             display: 'grid',
@@ -64,7 +64,7 @@ const MySelfTechSection = () => {
                             </div>
                             <div className="">
                                 <CustomTooltip text="NextJS">
-                                    <AppIcon url={NextLogo} altLabel={'next_logo'} width={60}/>
+                                    <AppIcon url={NextLogo} altLabel={'next_logo'} width={60} className="bg-white"/>
                                 </CustomTooltip>
                             </div>
                             <div className="">
@@ -90,16 +90,19 @@ const MySelfTechSection = () => {
                         </div>
                     </Col>
                     <Col xs={12} lg={{span: 7, offset: 1}}>
-                        <p className="fs-4">{t('shortMessageExperience')}</p>
-                        <div className="d-flex mt-5 mb-5 align-items-center">
-                            <div className="rounded-circle bg-black d-flex justify-content-center align-items-center flex-shrink-0"
-                                 style={{width: '60px', height: '60px'}}>
-                                <Icon icon={'fa-solid fa-arrow-down fa-xl fa-bounce'} className="text-white"/>
-                            </div>
-                            <p className="fs-4 ms-3 mb-0">{t('checkBelowServices')}</p>
-                        </div>
+                        <p className="fs-4 mb-4" dangerouslySetInnerHTML={{__html: t.raw('presentation')}}></p>
+                        <p className="fs-4" dangerouslySetInnerHTML={{__html: t.raw('shortMessage')}}/>
+                        <p className="fs-4 my-5">{t('shortMessageExperience')}</p>
+
                     </Col>
                 </Row>
+                <div className="d-flex mt-5 pt-5 mb-5 align-items-center justify-content-center">
+                    <div className="rounded-circle bg-white d-flex justify-content-center align-items-center flex-shrink-0"
+                         style={{width: '60px', height: '60px'}}>
+                        <Icon icon={'fa-solid fa-arrow-down fa-xl fa-bounce'} className="text-black"/>
+                    </div>
+                    <p className="fs-4 ms-3 mb-0">{t('checkBelowServices')}</p>
+                </div>
             </Container>
         </section>
     )

@@ -33,38 +33,38 @@ const NavBar = () => {
     }, [])
 
     return (
-        <Navbar expand="lg" fixed="top" className="py-3 mx-auto px-2 px-md-0" style={{maxWidth: '900px'}}>
+        <Navbar expand="lg" fixed="top" className="py-3 mx-auto px-2 px-md-0 text-white mt-2" >
             <Container className={nbScrolledClass}>
                 <NavbarLogo/>
                 <button type="button"
                         title="button-mobile-menu"
                         style={{background: 'none', border: 'none'}}
-                        className={`d-sm-block d-lg-none ${nbScrolledClass ? 'text-white': 'text-black'}`}
+                        className={`d-sm-block d-lg-none text-white`}
                         onClick={handleShowMenu}>
                     <Icon icon={'fa-solid fa-bars'} className="fs-2 cursor-pointer"/>
                 </button>
                 <OffCanvasMenu isShow={isShowMenu}
                                closeMenu={handleCloseMenu}
-                               className="d-sm-block d-lg-none bg-black text-white w-100"/>
+                               className="bg-black text-white w-100"/>
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="fs-5 d-none d-lg-inline-flex centered-absolute">
                         <Nav.Item className="me-5">
-                            <Link className={`link ${nbScrolledClass ? 'text-white' : 'text-black'}`}
+                            <Link className={`link text-white`}
                                   href={'/'}
                                   passHref>
                                 {t('homepage')}
                             </Link>
                         </Nav.Item>
                         <Nav.Item className="me-5">
-                            <Link className={`link ${nbScrolledClass ? 'text-white' : 'text-black'}`}
+                            <Link className={`link text-white`}
                                   href={'/about'}
                                   passHref>
                                 {t('about')}
                             </Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Link className={`link ${nbScrolledClass ? 'text-white' : 'text-black'}`}
+                            <Link className={`link text-white`}
                                   href={'/#contact-hero'}
                                   passHref>
                                 {t('contact')}

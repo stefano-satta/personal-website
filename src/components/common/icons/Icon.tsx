@@ -1,7 +1,7 @@
 import { HTMLAttributes } from "react";
 
 interface IconProps extends HTMLAttributes<HTMLDivElement> {
-    icon: string;
+    icon: string | Partial<IconProject>;
 }
 
 

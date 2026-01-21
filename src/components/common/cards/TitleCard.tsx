@@ -8,7 +8,7 @@ interface TitleCardProps extends BaseHTMLAttributes<HTMLHeadingElement> {
 const TitleCard = ({ title, className = '' }: TitleCardProps) => {
 
     return (
-        <h3 className={`pb-2 mb-5 ${className}`}>{title}</h3>
+        <h3 className={`pb-2 mb-5 text-uppercase ${className}`}>{title}</h3>
     )
 }
 

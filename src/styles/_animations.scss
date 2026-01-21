@@ -3,3 +3,8 @@
     transform: translateX(-100%);
   }
 }
+
+@keyframes wave-scroll {
+  0% { mask-position: 0 100%}
+  100% { mask-position: -64px 100% }
+}

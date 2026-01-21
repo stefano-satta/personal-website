@@ -1,5 +1,5 @@
 import {OverlayTrigger, Tooltip} from "react-bootstrap";
-import {PropsWithChildren} from "react";
+import {BaseHTMLAttributes, HTMLAttributes, PropsWithChildren} from "react";
 
 interface CustomTooltipProps {
     text: string;

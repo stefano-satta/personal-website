@@ -1,4 +1,7 @@
 const icon: IconProject = {
+    arrowUp: 'fa-solid fa-arrow-up-long',
+
+
     mail: 'fa-regular fa-envelope',
     linkedin: 'fa-brands fa-linkedin-in',
     github: 'fa-brands fa-github',

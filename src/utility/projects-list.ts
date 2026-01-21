@@ -1,7 +1,7 @@
 export const SIDE_PROJECTS: SideProject[] = [
     {
         name: 'Current portfolio',
-        description: 'My portfolio realized in NextJS and TypeScript, Next-intl for translation',
+        description: 'portfolio.description',
         category: 'Portfolio',
         framework: 'NextJS',
         language: 'Typescript',
@@ -13,7 +13,7 @@ export const SIDE_PROJECTS: SideProject[] = [
     },
     {
         name: 'Fakezon Store',
-        description: 'An angular v20 App store. Created to study and improve new signal features. Tailwind UI kit.',
+        description: 'fakezon.description',
         category: 'ECommerce',
         framework: 'Angular',
         language: 'Typescript',
@@ -25,7 +25,7 @@ export const SIDE_PROJECTS: SideProject[] = [
     },
     {
         name: 'Honey Company Website',
-        description: 'A vite vanilla JS website with Tailwind CSS. Inspired by theme website https://honey-production.weblium.site/',
+        description: 'honey_website.description',
         category: 'Website',
         framework: 'Vite',
         language: 'JavaScript',
@@ -37,7 +37,7 @@ export const SIDE_PROJECTS: SideProject[] = [
     },
     {
         name: 'Cryptoboard',
-        description: 'A simple NextJS dashboard and news from the world of the cryptocurrencies.',
+        description: 'cryptoboard.description',
         category: 'Finance',
         framework: 'NextJS',
         language: 'Typescript',
@@ -49,7 +49,7 @@ export const SIDE_PROJECTS: SideProject[] = [
     },
     {
         name: 'iCountry',
-        description: 'A VueJS App that it provides information world countries. Tailwind UI kit.',
+        description: 'icountry.description',
         category: 'Info & Weather',
         framework: 'VueJS',
         language: 'Typescript',
@@ -58,29 +58,5 @@ export const SIDE_PROJECTS: SideProject[] = [
         isCompleted: false,
         github: 'https://github.com/stefano-satta/icountry',
         siteUrl: 'https://stefano-satta.github.io/icountry'
-    },
-    {
-        name: 'My website 2022',
-        description: 'My website template realized in NextJS (2022).',
-        category: 'Portfolio',
-        framework: 'NextJS',
-        language: 'JavaScript',
-        bgIconColor: 'bg-icon-javascript',
-        date: '01-10-2022',
-        isCompleted: true,
-        github: 'https://github.com/stefano-satta/personal-website-2022',
-        siteUrl: ''
-    },
-    {
-        name: 'Rental Car Hub',
-        description: 'A simple Angular SPA that it connects who wants to rent cars and all type of customers.',
-        category: 'Automotive',
-        framework: 'Angular',
-        language: 'Typescript',
-        bgIconColor: 'bg-icon-typescript',
-        date: '23-08-2023',
-        isCompleted: false,
-        github: 'https://github.com/stefano-satta/car-rental-hub',
-        siteUrl: ''
     }
 ]

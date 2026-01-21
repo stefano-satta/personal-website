@@ -1,28 +1,37 @@
-$color-black: #191a1b;
-$color-grey: #6e6e73;
-$color-grey-background: #f7f7f9;
+$color-black: #000;
+$color-white: #fff;
+$color-yellow-accent: #A5ED56;
+$color-blue: #0159FE;
+$color-orange: #FFB248;
+$color-shocking: #F57ADE;
+$color-grey: rgba(255, 255, 255, 0.12);
+$color-red: #FF3B32;
+
+
 $color-warning: #bf4800;
-$color-yellow-accent: #d2ff37;
 $color-javascript: #f7df1f;
 $color-typescript: #2f74c0;
 $color-black-btn-hover: #383838;
 $color-white-btn-hover: #c7c7c7;
 $color-yellow-accent-btn-hover: rgb(209, 255, 42);
-$color-white: #fff;
 $color-orange: #ff8e38;
 $color-fucsia: #ff77aa;
 $color-green-light: rgba(45,253,167,1);
 $color-blue-light: rgba(34,193,195,1);
 $color-navbar-blur: rgba(0, 0, 0, 0.2);
-$font-size-title-mega: clamp(60px, 17.7465px + 8.4507vw, 180px);
+$font-size-title-mega: clamp(50px, 17.7465px + 8.4507vw, 140px);
 
 //  text
-$font-family: 'Lato', sans-serif;
+$font-space-grotesk: 'Space Grotesk', sans-serif;
+$font-archivo-black: 'Archivo Black', sans-serif;
 $text-color-white: $color-white;
-$text-color-black: $color-black; 
+$text-color-black: $color-black;
 
 //  buttons
 $buttonColors: $color-black, $color-white, $color-yellow-accent;
 $buttonColorsHover: $color-black-btn-hover, $color-white-btn-hover, $color-yellow-accent-btn-hover;
 $buttonsTextColor: $text-color-white, $text-color-black, $text-color-black;
 $buttons: 'black', 'white', 'yellow-accent';
+
+//  svg
+$wave-svg: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 20'><path d='M0,5.7c16,0,16,8.8,32.1,8.8s16-8.8,32.1-8.8' fill='none' stroke='black' stroke-width='10'/></svg>");

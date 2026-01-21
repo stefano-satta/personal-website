@@ -1,16 +1,16 @@
 import Image, {StaticImageData} from "next/image";
-import {PropsWithChildren} from "react";
+import {HTMLAttributes, PropsWithChildren} from "react";
 
-interface AppIconProps {
+interface AppIconProps extends HTMLAttributes<HTMLDivElement> {
     url: string | StaticImageData;
     altLabel: string;
     width?: number;
 }
 
-const AppIcon = ({url, altLabel, width = 64}: PropsWithChildren<AppIconProps>) => {
+const AppIcon = ({url, altLabel, width = 64, className}: PropsWithChildren<AppIconProps>) => {
 
     return (
-        <div className="app-icon">
+        <div className={`app-icon ${className}`}>
             <Image src={url} alt={altLabel} width={width} priority/>
         </div>
     )
