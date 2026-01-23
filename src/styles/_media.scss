@@ -7,7 +7,9 @@
         padding-top: 100px;
 
         #blob-lottie {
-            width: 100%;
+            canvas {
+                width: 900px !important;
+            }
         }
     }
 

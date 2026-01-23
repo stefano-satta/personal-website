@@ -155,8 +155,12 @@ body {
     padding-top: 120px;
 
     #blob-lottie {
-        width: 75%;
+        overflow: hidden;
         top: 44%;
+
+        canvas {
+            width: 1500px !important;
+        }
     }
 }
 
