@@ -23,6 +23,7 @@ const ButtonCustom = (props: ButtonCustomProps) => {
             </span>
         </Button>*/
         <Button className={`bg-transparent btn rounded d-flex rounded-pill ${className}`}
+                style={style}
                 id="button-custom"
                 onClick={() => onClickAction?.()}>
             <span className="btn-text">{label}</span>

@@ -89,7 +89,7 @@ const MySelfTechSection = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col xs={{span: 12, order: 1}} lg={{span: 7, offset: 1, order: "last"}} className="text-center">
+                    <Col xs={{span: 12, order: 1}} lg={{span: 7, offset: 1, order: "last"}} className="text-center text-wrap-balance">
                         <p className="fs-4 mb-4" dangerouslySetInnerHTML={{__html: t.raw('presentation')}}></p>
                         <p className="fs-4" dangerouslySetInnerHTML={{__html: t.raw('shortMessage')}}/>
                         <p className="fs-4 my-5">{t('shortMessageExperience')}</p>
