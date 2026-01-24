@@ -19,7 +19,7 @@ const MyMediaSection = () => {
     return (
         <section id="media-section" className="bg-black">
             <Container>
-                <TitleSection title={t('title')} className="text-white font-archivo-black text-center"/>
+                <TitleSection title={t('title')} className="text-white font-archivo-black"/>
                 <Row className="py-5">
                     <Col xs={12} md={6}>
                         <div className="">

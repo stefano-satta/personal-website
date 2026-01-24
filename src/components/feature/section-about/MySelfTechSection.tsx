@@ -10,7 +10,7 @@ import NextLogo from "../../../../public/logos/next.svg";
 import VueLogo from '../../../../public/logos/vuejs.png';
 import JavascriptLogo from "../../../../public/logos/javascript.png";
 import TypescriptLogo from "../../../../public/logos/typescript.png";
-import WebpackLogo from "../../../../public/logos/webpack.png";
+import ViteLogo from "../../../../public/logos/vite.png";
 import Icon from "@/components/common/icons/Icon";
 import {useTranslations} from "next-intl";
 import CircularHello from "@/components/common/circular-hello/CircularHello";
@@ -23,18 +23,18 @@ const MySelfTechSection = () => {
         <section id="my-self-tech-section" className="bg-black text-white">
             <Container className="py-5">
                 <div className="mt-5 w-100 d-flex justify-content-center">
-                    <div className="w-75 d-flex justify-content-center">
+                    <div className="w-75 d-flex justify-content-center flex-column flex-md-row">
                         <div>
                             <CircularHello/>
                         </div>
-                        <div className="ps-5">
+                        <div className="ps-0 ps-md-5 mt-3 mt-md-0">
                             <TitleSection title={t('title')}
                                           className="fs-title-section font-archivo-black"/>
                         </div>
                     </div>
                 </div>
-                <Row className="mt-5 pt-5 mb-5">
-                    <Col xs={12} lg={4} className="mb-5 mb-lg-0">
+                <Row className="mt-5 pt-0 pt-lg-5 mb-5">
+                    <Col xs={{span: 12, order: 2}} lg={{span: 4, order: "first"}} className="mb-5 mb-lg-0">
                         <div style={{
                             display: 'grid',
                             gridTemplateColumns: 'repeat(3, 1fr)',
@@ -84,12 +84,12 @@ const MySelfTechSection = () => {
                             </div>
                             <div className="">
                                 <CustomTooltip text="Webpack">
-                                    <AppIcon url={WebpackLogo} altLabel={'webpack_logo'}/>
+                                    <AppIcon url={ViteLogo} altLabel={'vite_logo'}/>
                                 </CustomTooltip>
                             </div>
                         </div>
                     </Col>
-                    <Col xs={12} lg={{span: 7, offset: 1}}>
+                    <Col xs={{span: 12, order: 1}} lg={{span: 7, offset: 1, order: "last"}} className="text-center">
                         <p className="fs-4 mb-4" dangerouslySetInnerHTML={{__html: t.raw('presentation')}}></p>
                         <p className="fs-4" dangerouslySetInnerHTML={{__html: t.raw('shortMessage')}}/>
                         <p className="fs-4 my-5">{t('shortMessageExperience')}</p>

@@ -9,7 +9,7 @@ const MyServicesSection = () => {
 
     return (
         <section className="bg-black" id="my-services-section">
-            <Container className="text-white bg-blue rounded-5 p-5">
+            <Container className="text-white bg-blue rounded-5 p-3 p-md-5">
                 <TitleSection title={t('title')} className="fs-title-section mb-5 pb-5 font-archivo-black text-center"/>
                 <Row className="py-5 mb-3 fs-4">
                     <Col xs={2} lg={2}>01</Col>
