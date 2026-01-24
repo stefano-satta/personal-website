@@ -13,7 +13,7 @@ const ButtonCustom = (props: ButtonCustomProps) => {
     const {label, iconType = icon.arrowUp, className, style, onClickAction} = props;
 
     return (
-        <Button className={`px-5 d-flex rounded-pill bg-white text-black position-relative ${className}`}
+        /*<Button className={`px-5 d-flex rounded-pill bg-white text-black position-relative ${className}`}
                 style={style}
                 id="button-custom"
                 onClick={() => onClickAction?.()}>
@@ -21,6 +21,11 @@ const ButtonCustom = (props: ButtonCustomProps) => {
             <span className="ms-3 p-1 rounded-circle bg-yellow-accent position-absolute z-1">
                 <Icon icon={iconType} className="text-black" style={{transform: 'rotate(45deg)'}}/>
             </span>
+        </Button>*/
+        <Button className={`bg-transparent btn rounded d-flex rounded-pill ${className}`}
+                id="button-custom"
+                onClick={() => onClickAction?.()}>
+            <span className="btn-text">{label}</span>
         </Button>
     )
 }

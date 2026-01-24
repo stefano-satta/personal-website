@@ -1,6 +1,6 @@
 $color-black: #000;
 $color-white: #fff;
-$color-yellow-accent: #A5ED56;
+$color-green-accent: #00F0B5;
 $color-blue: #0159FE;
 $color-orange: #FFB248;
 $color-shocking: #F57ADE;
@@ -13,7 +13,7 @@ $color-javascript: #f7df1f;
 $color-typescript: #2f74c0;
 $color-black-btn-hover: #383838;
 $color-white-btn-hover: #c7c7c7;
-$color-yellow-accent-btn-hover: rgb(209, 255, 42);
+$color-green-accent-btn-hover: rgba(45,253,167,1);;
 $color-orange: #ff8e38;
 $color-fucsia: #ff77aa;
 $color-green-light: rgba(45,253,167,1);
@@ -28,8 +28,8 @@ $text-color-white: $color-white;
 $text-color-black: $color-black;
 
 //  buttons
-$buttonColors: $color-black, $color-white, $color-yellow-accent;
-$buttonColorsHover: $color-black-btn-hover, $color-white-btn-hover, $color-yellow-accent-btn-hover;
+$buttonColors: $color-black, $color-white, $color-green-accent;
+$buttonColorsHover: $color-black-btn-hover, $color-white-btn-hover, $color-green-accent-btn-hover;
 $buttonsTextColor: $text-color-white, $text-color-black, $text-color-black;
 $buttons: 'black', 'white', 'yellow-accent';
 

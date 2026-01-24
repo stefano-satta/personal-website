@@ -75,7 +75,7 @@ $z: 1;
 .social-link-white {
   @include socialLink($color-white);
 }
-
+/*
 #button-custom {
   :nth-child(2) {
     width: 30px;
@@ -84,8 +84,53 @@ $z: 1;
     right: 5%;
   }
 
-  /*&:hover :nth-child(2) {
+  !*&:hover :nth-child(2) {
     width: 300%;
     height: 300%
-  }*/
+  }*!
+}*/
+
+
+#button-custom {
+  margin: 20px auto;
+  border: none;
+  padding: 10px 30px;
+  font-size: 24px;
+  position: relative;
+  background: $color-white;
+  will-change: auto;
+
+  &::before{
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  & .btn-text{
+    color: $color-white;
+    // check out mdn docs for different types of blend modes.
+    mix-blend-mode: hard-light;
+  }
+
+  //rounded btn styles
+  &.rounded{
+    border-radius:50px;
+
+    &::before{
+      border-radius: 50px;
+      width: 25%;
+      background: #00F0B5;
+    }
+    &:hover{
+      &::before{
+        background: #00F0B5;
+        width: 100%;
+      }
+    }
+  }
 }
