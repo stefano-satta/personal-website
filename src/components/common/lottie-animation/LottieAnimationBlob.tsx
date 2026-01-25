@@ -13,7 +13,9 @@ const LottieAnimationBlob = ({className}: LottieAnimationBlobProps) => {
                 src="/lotties/blob.lottie"
                 loop
                 autoplay
-                speed={0.8}
+                renderConfig={{
+                    devicePixelRatio: 1
+                }}
             />
         </div>
 
