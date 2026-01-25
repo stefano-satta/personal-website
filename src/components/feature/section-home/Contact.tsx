@@ -30,7 +30,7 @@ const Contact = () => {
                                         transition={{ type: "spring", bounce: 0.65 }}
                                         viewport={{ once: true }}
                                         whileHover={{ backgroundColor: '#FF3B32', border: '1px solid #FF3B32' }}>
-                                <Link href={myInfo.linkedin} className="text-decoration-none text-white">
+                                <Link href={myInfo.linkedin} target={"_blank"} className="text-decoration-none text-white">
                                     LinkedIn
                                 </Link>
                             </motion.div>
@@ -41,7 +41,7 @@ const Contact = () => {
                                         viewport={{ once: true }}
                                         whileInView={{  y: 95, rotate: 35, x: 220, opacity: 1}}
                                         whileHover={{ backgroundColor: 'white', color: 'black' }}>
-                                <Link href={myInfo.notionCV} className="text-reset text-decoration-none text-white">
+                                <Link href={myInfo.notionCV} target={"_blank"} className="text-reset text-decoration-none text-white">
                                     Notion CV
                                 </Link>
                             </motion.div>
@@ -52,7 +52,7 @@ const Contact = () => {
                                         viewport={{ once: true }}
                                         whileInView={{ rotate: -6, y: 70, x: 140, opacity: 1 }}
                                         whileHover={{ backgroundColor: 'orange', border: '1px solid orange'}}>
-                                <Link href={myInfo.github} className="text-decoration-none text-white">
+                                <Link href={myInfo.github} target={"_blank"} className="text-decoration-none text-white">
                                     GitHub
                                 </Link>
                             </motion.div>
