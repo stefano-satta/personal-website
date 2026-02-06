@@ -27,7 +27,7 @@ body {
     color: $color-black;
     
     &:hover {
-        color: $color-grey;
+        color: $color-black-btn-hover;
     }
 }
 .link { @include replaceLinkUnderlineAndColor($color-white); }
@@ -48,19 +48,6 @@ body {
 .bg-orange {background-color: $color-orange !important; }
 .bg-icon-javascript { color: $color-javascript !important; }
 .bg-icon-typescript { color: $color-typescript !important; }
-
-
-//  tooltip
-.tooltip-inner { background-color: $color-white; color: $color-black; border-right-color: $color-white; }
-.bs-tooltip-bottom .tooltip-arrow:before {
-    //border-right-color: $color-white !important;
-}
-.tooltip .tooltip-arrow:before {
-    border-color: #0000;
-    border-style: solid;
-    content: "";
-    position: absolute;
-}
 
 
 //  navbar
