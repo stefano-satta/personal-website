@@ -45,6 +45,9 @@
         },
         "icountry": {
           "description": "A VueJS App that it provides information world countries. Tailwind UI kit."
+        },
+        "luminary": {
+          "description": "Luminary automates repetitive decisions,\nand surfaces what matters — before you even ask."
         }
       }
     },

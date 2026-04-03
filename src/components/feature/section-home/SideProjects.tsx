@@ -6,6 +6,7 @@ import TitleCard from "@/components/common/cards/TitleCard";
 import {SIDE_PROJECTS} from "@/utility/projects-list";
 import Image from "next/image";
 import FakezonStoreTemplateImg from '../../../../public/ecommerce.png';
+import LuminaryImg from '../../../../public/dashboard.webp';
 import TitleSection from "@/components/common/title-subtitle-sections/TitleSection";
 import {Col, Container, Row} from "react-bootstrap";
 import {useTranslations} from "next-intl";
@@ -13,7 +14,7 @@ import LottieAnimationICountry from "@/components/common/lottie-animation/Lottie
 
 
 const SideProjects = () => {
-    const [currentPortfolio, fakezonProject, honeyProject, cryptoProject, icountryProject] = SIDE_PROJECTS;
+    const [currentPortfolio, fakezonProject, honeyProject, cryptoProject, icountryProject, luminaryProject] = SIDE_PROJECTS;
     const t = useTranslations('homepage.projects');
 
     return (
@@ -36,6 +37,13 @@ const SideProjects = () => {
                         </SPCard>
                     </Col>
                     <Col xs={12} md={6} className="mb-4">
+                        <SPCard className="bg-green-accent text-white" infoProject={luminaryProject}>
+                            <CategoryTitleCard categoryTitle={luminaryProject.category} className="fw-bold"/>
+                            <TitleCard title={luminaryProject.name} className="font-archivo-black"/>
+                            <Image src={LuminaryImg} alt="fakezon_website_project" width={400}  priority className="pb-2 h-auto rounded-4"/>
+                        </SPCard>
+                    </Col>
+                    <Col xs={12} md={6} className="mb-4">
                         <SPCard infoProject={honeyProject} className="bg-grey text-white honey-project">
                             <CategoryTitleCard categoryTitle={honeyProject.category} className="fw-bold"/>
                             <TitleCard title={honeyProject.name} className="font-archivo-black"/>
@@ -55,20 +63,6 @@ const SideProjects = () => {
                         </SPCard>
                     </Col>
                 </Row>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </Container>
         </section>
     )

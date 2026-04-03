@@ -45,6 +45,9 @@
         },
         "icountry": {
           "description": "Principali info su Stati nel mondo e relativo meteo. VueJS e Tailwind per la sua realizzazione"
+        },
+        "luminary": {
+          "description": "Luminary automatizza le decisioni ripetitive e mette in evidenza ciò che conta, ancor prima che tu lo chieda."
         }
       }
     },

@@ -58,5 +58,17 @@ export const SIDE_PROJECTS: SideProject[] = [
         isCompleted: false,
         github: 'https://github.com/stefano-satta/icountry',
         siteUrl: 'https://stefano-satta.github.io/icountry'
+    },
+    {
+        name: 'Luminary',
+        description: 'luminary.description',
+        category: 'Automation AI',
+        framework: 'Vite',
+        language: 'JavaScript',
+        bgIconColor: 'bg-icon-javascript',
+        date: '03-04-2026',
+        isCompleted: true,
+        github: 'https://github.com/stefano-satta/luminary-project',
+        siteUrl: 'https://stefano-satta.github.io/luminary-project/'
     }
 ]
