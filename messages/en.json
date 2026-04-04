@@ -47,7 +47,7 @@
           "description": "A VueJS App that it provides information world countries. Tailwind UI kit."
         },
         "luminary": {
-          "description": "Luminary automates repetitive decisions,\nand surfaces what matters — before you even ask."
+          "description": "Luminary is a product page created with ViteJS, HTML, CSS and Claude Code AI"
         }
       }
     },
