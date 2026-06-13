@@ -1,5 +1,4 @@
 "use client"
-
 import TitleFirstHero from "@/components/common/title-subtitle-sections/TitleFirstHero";
 import { Container } from "react-bootstrap";
 import LottieAnimationBlob from "@/components/common/lottie-animation/LottieAnimationBlob";
@@ -19,7 +18,7 @@ const FirstHero = () => {
                        alt="a portrait of me"
                        className="position-absolute bottom-0 start-50 translate-middle-x z-2"
                        width="480"
-                       loading="eager"/>
+                       priority/>
             </Container>
         </section>
 

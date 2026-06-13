@@ -1,11 +1,16 @@
 'use client'
-import {HTMLAttributes} from "react";
+import {HTMLAttributes, useMemo} from "react";
 import {DotLottieReact} from "@lottiefiles/dotlottie-react";
-import render from "next/dist/compiled/@vercel/og/og";
 
 type LottieAnimationBlobProps = HTMLAttributes<HTMLDivElement>;
 
 const LottieAnimationBlob = ({className}: LottieAnimationBlobProps) => {
+
+    const renderConfig = useMemo(
+        () => ({
+            devicePixelRatio: 1
+        }),[]
+    );
 
     return (
         <div className={className} id="blob-lottie">
@@ -13,9 +18,7 @@ const LottieAnimationBlob = ({className}: LottieAnimationBlobProps) => {
                 src="/lotties/blob.lottie"
                 loop
                 autoplay
-                renderConfig={{
-                    devicePixelRatio: 1
-                }}
+                renderConfig={renderConfig}
             />
         </div>
 
@@ -23,3 +26,4 @@ const LottieAnimationBlob = ({className}: LottieAnimationBlobProps) => {
 }
 
 export default LottieAnimationBlob;
+

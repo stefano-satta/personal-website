@@ -143,9 +143,11 @@ body {
     #blob-lottie {
         overflow: hidden;
         top: 44%;
+        width: 1500px !important;
+        will-change: transform;
 
         canvas {
-            width: 1500px !important;
+            width: 100% !important;
         }
     }
 }
