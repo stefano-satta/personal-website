@@ -31,8 +31,8 @@
       "title": "Projects.",
       "subTitle": "A small list of other projects chosen by me.",
       "list": {
-        "portfolio": {
-          "description": "My portfolio realized in NextJS and TypeScript, Next-intl for translation"
+        "prontokit": {
+          "description": "Free online tools for files and data that run entirely within your browser. No registration required. Technologies used: ReactJS, TypeScript, and Tailwind. Designed by me and developed with the assistance of Claude Code AI"
         },
         "fakezon": {
           "description": "An angular v20 App store. Created to study and improve new signal features. Tailwind UI kit."

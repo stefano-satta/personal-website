@@ -5,7 +5,7 @@ import SPCard from "@/components/common/cards/ProjectCard";
 import TitleCard from "@/components/common/cards/TitleCard";
 import {SIDE_PROJECTS} from "@/utility/projects-list";
 import Image from "next/image";
-import FakezonStoreTemplateImg from '../../../../public/ecommerce.png';
+import FakezonImg from '../../../../public/ecommerce.png';
 import LuminaryImg from '../../../../public/dashboard.webp';
 import TitleSection from "@/components/common/title-subtitle-sections/TitleSection";
 import {Col, Container, Row} from "react-bootstrap";
@@ -14,7 +14,7 @@ import LottieAnimationICountry from "@/components/common/lottie-animation/Lottie
 
 
 const SideProjects = () => {
-    const [currentPortfolio, fakezonProject, honeyProject, cryptoProject, icountryProject, luminaryProject] = SIDE_PROJECTS;
+    const [prontokitProject, fakezonProject, honeyProject, cryptoProject, icountryProject, luminaryProject] = SIDE_PROJECTS;
     const t = useTranslations('homepage.projects');
 
     return (
@@ -24,16 +24,16 @@ const SideProjects = () => {
                 <p className="fs-2 mb-5 text-white text-center">{t('subTitle')}</p>
                 <Row className="row-cols-2 pt-4 justify-content-between">
                     <Col xs={12} md={6} className="mb-4">
-                        <SPCard className="text-white current-portfolio" infoProject={currentPortfolio}>
-                            <CategoryTitleCard categoryTitle={currentPortfolio.category} className="fw-bold"/>
-                            <TitleCard title={currentPortfolio.name} className="gradient-red font-archivo-black"/>
+                        <SPCard className="text-white prontokit-img" infoProject={prontokitProject}>
+                            <CategoryTitleCard categoryTitle={prontokitProject.category} className="fw-bold"/>
+                            <TitleCard title={prontokitProject.name} className="gradient-red font-archivo-black"/>
                         </SPCard>
                     </Col>
                     <Col xs={12} md={6} className="mb-4">
                         <SPCard className="bg-orange text-white" infoProject={fakezonProject}>
                             <CategoryTitleCard categoryTitle={fakezonProject.category} className="fw-bold"/>
                             <TitleCard title={fakezonProject.name} className="font-archivo-black"/>
-                            <Image src={FakezonStoreTemplateImg} alt="fakezon_website_project" width={300}  priority className="pb-2 h-auto"/>
+                            <Image src={FakezonImg} alt="fakezon_website_project" width={300}  priority className="pb-2 h-auto"/>
                         </SPCard>
                     </Col>
                     <Col xs={12} md={6} className="mb-4">

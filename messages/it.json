@@ -31,8 +31,8 @@
       "title": "Progetti.",
       "subTitle": "Una piccola lista di progetti e case-studies realizzati da me.",
       "list": {
-        "portfolio": {
-          "description": "Creazione del portfolio corrente. Realizzato con NextJS, TypeScript e Next-intl per il multilingua"
+        "prontokit": {
+          "description": "Strumenti online gratuiti per file e dati, che funzionano interamente nel browser. Nessuna registrazione richiesta. Tecnologie usate: ReactJS, Typescript, Tailwind. Progetta da me e sviluppata con l'ausilio di Claude Code AI"
         },
         "fakezon": {
           "description": "Store creato con Angular v20, progetto studio per migliorare le nuove funzionalità del framework come i Signal. Tailwind UI kit"

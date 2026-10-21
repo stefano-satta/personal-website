@@ -1,15 +1,15 @@
 export const SIDE_PROJECTS: SideProject[] = [
     {
-        name: 'Current portfolio',
-        description: 'portfolio.description',
-        category: 'Portfolio',
-        framework: 'NextJS',
+        name: 'ProntoKit',
+        description: 'prontokit.description',
+        category: 'Utilities',
+        framework: 'ReactJS',
         language: 'Typescript',
         bgIconColor: 'bg-icon-typescript',
-        date: '02-18-2025',
+        date: '21-10-2026',
         isCompleted: true,
-        github: 'https://github.com/stefano-satta/personal-website',
-        siteUrl: ''
+        github: 'https://github.com/stefano-satta/prontokit',
+        siteUrl: 'https://prontokit.netlify.app/'
     },
     {
         name: 'Fakezon Store',
