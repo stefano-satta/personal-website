@@ -46,8 +46,8 @@
         "icountry": {
           "description": "Principali info su Stati nel mondo e relativo meteo. VueJS e Tailwind per la sua realizzazione"
         },
-        "luminary": {
-          "description": "Luminary è una pagina prodotto realizzata con ViteJS, HTML e CSS con ausilio di Claude Code AI"
+        "atlante": {
+          "description": "Atlante interattivo del corpo umano in 3D: esplora scheletro, muscoli e organi nel browser, con schede scientifiche citate, glossario, percorsi guidati e schemi animati dei processi fisiologici. React, three.js, TypeScript."
         }
       }
     },

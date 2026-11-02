@@ -6,7 +6,6 @@ import TitleCard from "@/components/common/cards/TitleCard";
 import {SIDE_PROJECTS} from "@/utility/projects-list";
 import Image from "next/image";
 import FakezonImg from '../../../../public/ecommerce.png';
-import LuminaryImg from '../../../../public/dashboard.webp';
 import TitleSection from "@/components/common/title-subtitle-sections/TitleSection";
 import {Col, Container, Row} from "react-bootstrap";
 import {useTranslations} from "next-intl";
@@ -14,7 +13,7 @@ import LottieAnimationICountry from "@/components/common/lottie-animation/Lottie
 
 
 const SideProjects = () => {
-    const [prontokitProject, fakezonProject, honeyProject, cryptoProject, icountryProject, luminaryProject] = SIDE_PROJECTS;
+    const [prontokitProject, fakezonProject, honeyProject, cryptoProject, icountryProject, AtlanteProject] = SIDE_PROJECTS;
     const t = useTranslations('homepage.projects');
 
     return (
@@ -33,14 +32,13 @@ const SideProjects = () => {
                         <SPCard className="bg-orange text-white" infoProject={fakezonProject}>
                             <CategoryTitleCard categoryTitle={fakezonProject.category} className="fw-bold"/>
                             <TitleCard title={fakezonProject.name} className="font-archivo-black"/>
-                            <Image src={FakezonImg} alt="fakezon_website_project" width={300}  priority className="pb-2 h-auto"/>
+                            <Image src={FakezonImg} alt="fakezon_website_project" width={300} priority className="pb-2 h-auto"/>
                         </SPCard>
                     </Col>
                     <Col xs={12} md={6} className="mb-4">
-                        <SPCard className="bg-green-accent text-white" infoProject={luminaryProject}>
-                            <CategoryTitleCard categoryTitle={luminaryProject.category} className="fw-bold"/>
-                            <TitleCard title={luminaryProject.name} className="font-archivo-black"/>
-                            <Image src={LuminaryImg} alt="fakezon_website_project" width={400}  priority className="pb-2 h-auto rounded-4"/>
+                        <SPCard className="bg-dark text-white atlante-img" infoProject={AtlanteProject}>
+                            <CategoryTitleCard categoryTitle={AtlanteProject.category} className="fw-bold"/>
+                            <TitleCard title={AtlanteProject.name} className="font-archivo-black"/>
                         </SPCard>
                     </Col>
                     <Col xs={12} md={6} className="mb-4">

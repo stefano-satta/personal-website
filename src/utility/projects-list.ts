@@ -54,21 +54,21 @@ export const SIDE_PROJECTS: SideProject[] = [
         framework: 'VueJS',
         language: 'Typescript',
         bgIconColor: 'bg-icon-typescript',
-        date: '18-12-2024',
+        date: '12-14-2024',
         isCompleted: false,
         github: 'https://github.com/stefano-satta/icountry',
         siteUrl: 'https://stefano-satta.github.io/icountry'
     },
     {
-        name: 'Luminary',
-        description: 'luminary.description',
-        category: 'Automation AI',
-        framework: 'Vite',
-        language: 'JavaScript',
-        bgIconColor: 'bg-icon-javascript',
-        date: '03-04-2026',
-        isCompleted: true,
-        github: 'https://github.com/stefano-satta/luminary-project',
-        siteUrl: 'https://stefano-satta.github.io/luminary-project/'
+        name: 'Atlante Corpo Umano',
+        description: 'atlante.description',
+        category: 'Model 3D',
+        framework: 'React',
+        language: 'Typescript',
+        bgIconColor: 'bg-icon-typescript',
+        date: '11-02-2026',
+        isCompleted: false,
+        github: '',
+        siteUrl: 'https://atlante-corpo-umano.netlify.app/'
     }
 ]

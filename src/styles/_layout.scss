@@ -182,6 +182,13 @@ body {
     padding-top: 150px;
     padding-bottom: 200px;
 
+    .atlante-img {
+        background-image: url('/atlante-preview.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
     .prontokit-img {
         background-image: url('/prontokit-img.png');
         background-size: cover;

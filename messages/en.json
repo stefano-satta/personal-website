@@ -46,8 +46,8 @@
         "icountry": {
           "description": "A VueJS App that it provides information world countries. Tailwind UI kit."
         },
-        "luminary": {
-          "description": "Luminary is a product page created with ViteJS, HTML, CSS and Claude Code AI"
+        "atlante": {
+          "description": "Interactive 3D human anatomy atlas: explore the skeleton, muscles and organs in the browser, with cited scientific texts, a glossary, guided paths and animated diagrams of physiological processes. React, three.js, TypeScript."
         }
       }
     },
