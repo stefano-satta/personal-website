@@ -2,7 +2,7 @@ export const SIDE_PROJECTS: SideProject[] = [
     {
         name: 'ProntoKit',
         description: 'prontokit.description',
-        category: 'Utilities',
+        category: 'Utilities • AI Powered',
         framework: 'ReactJS',
         language: 'Typescript',
         bgIconColor: 'bg-icon-typescript',
@@ -62,13 +62,13 @@ export const SIDE_PROJECTS: SideProject[] = [
     {
         name: 'Atlante Corpo Umano',
         description: 'atlante.description',
-        category: 'Model 3D',
+        category: 'Model 3D • AI Powered',
         framework: 'React',
         language: 'Typescript',
         bgIconColor: 'bg-icon-typescript',
         date: '11-02-2026',
         isCompleted: false,
-        github: '',
+        github: 'https://github.com/stefano-satta/atlante-corpo-umano',
         siteUrl: 'https://atlante-corpo-umano.netlify.app/'
     }
 ]

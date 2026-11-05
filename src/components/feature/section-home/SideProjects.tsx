@@ -29,16 +29,16 @@ const SideProjects = () => {
                         </SPCard>
                     </Col>
                     <Col xs={12} md={6} className="mb-4">
+                        <SPCard className="bg-dark text-white atlante-img" infoProject={AtlanteProject}>
+                            <CategoryTitleCard categoryTitle={AtlanteProject.category} className="fw-bold"/>
+                            <TitleCard title={AtlanteProject.name} className="font-archivo-black"/>
+                        </SPCard>
+                    </Col>
+                    <Col xs={12} md={6} className="mb-4">
                         <SPCard className="bg-orange text-white" infoProject={fakezonProject}>
                             <CategoryTitleCard categoryTitle={fakezonProject.category} className="fw-bold"/>
                             <TitleCard title={fakezonProject.name} className="font-archivo-black"/>
                             <Image src={FakezonImg} alt="fakezon_website_project" width={300} priority className="pb-2 h-auto"/>
-                        </SPCard>
-                    </Col>
-                    <Col xs={12} md={6} className="mb-4">
-                        <SPCard className="bg-dark text-white atlante-img" infoProject={AtlanteProject}>
-                            <CategoryTitleCard categoryTitle={AtlanteProject.category} className="fw-bold"/>
-                            <TitleCard title={AtlanteProject.name} className="font-archivo-black"/>
                         </SPCard>
                     </Col>
                     <Col xs={12} md={6} className="mb-4">
